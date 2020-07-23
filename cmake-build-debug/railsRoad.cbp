@@ -82,6 +82,36 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/FileParser/FileParser.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/FileParser/FileParser.h">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.h">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance.h">
+			<Option target="railsRoad"/>
+		</Unit>
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/main.cpp">
 			<Option target="railsRoad"/>
 		</Unit>

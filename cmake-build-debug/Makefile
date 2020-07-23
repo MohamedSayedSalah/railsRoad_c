@@ -123,6 +123,141 @@ railsRoad/fast:
 	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/build
 .PHONY : railsRoad/fast
 
+FileParser/FileParser.o: FileParser/FileParser.cpp.o
+
+.PHONY : FileParser/FileParser.o
+
+# target to build an object file
+FileParser/FileParser.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/FileParser/FileParser.cpp.o
+.PHONY : FileParser/FileParser.cpp.o
+
+FileParser/FileParser.i: FileParser/FileParser.cpp.i
+
+.PHONY : FileParser/FileParser.i
+
+# target to preprocess a source file
+FileParser/FileParser.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/FileParser/FileParser.cpp.i
+.PHONY : FileParser/FileParser.cpp.i
+
+FileParser/FileParser.s: FileParser/FileParser.cpp.s
+
+.PHONY : FileParser/FileParser.s
+
+# target to generate assembly for a file
+FileParser/FileParser.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/FileParser/FileParser.cpp.s
+.PHONY : FileParser/FileParser.cpp.s
+
+Graph/Edge/Edge.o: Graph/Edge/Edge.cpp.o
+
+.PHONY : Graph/Edge/Edge.o
+
+# target to build an object file
+Graph/Edge/Edge.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Edge/Edge.cpp.o
+.PHONY : Graph/Edge/Edge.cpp.o
+
+Graph/Edge/Edge.i: Graph/Edge/Edge.cpp.i
+
+.PHONY : Graph/Edge/Edge.i
+
+# target to preprocess a source file
+Graph/Edge/Edge.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Edge/Edge.cpp.i
+.PHONY : Graph/Edge/Edge.cpp.i
+
+Graph/Edge/Edge.s: Graph/Edge/Edge.cpp.s
+
+.PHONY : Graph/Edge/Edge.s
+
+# target to generate assembly for a file
+Graph/Edge/Edge.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Edge/Edge.cpp.s
+.PHONY : Graph/Edge/Edge.cpp.s
+
+Graph/Graph.o: Graph/Graph.cpp.o
+
+.PHONY : Graph/Graph.o
+
+# target to build an object file
+Graph/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Graph.cpp.o
+.PHONY : Graph/Graph.cpp.o
+
+Graph/Graph.i: Graph/Graph.cpp.i
+
+.PHONY : Graph/Graph.i
+
+# target to preprocess a source file
+Graph/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Graph.cpp.i
+.PHONY : Graph/Graph.cpp.i
+
+Graph/Graph.s: Graph/Graph.cpp.s
+
+.PHONY : Graph/Graph.s
+
+# target to generate assembly for a file
+Graph/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Graph.cpp.s
+.PHONY : Graph/Graph.cpp.s
+
+Graph/Vertex/Vertex.o: Graph/Vertex/Vertex.cpp.o
+
+.PHONY : Graph/Vertex/Vertex.o
+
+# target to build an object file
+Graph/Vertex/Vertex.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.o
+.PHONY : Graph/Vertex/Vertex.cpp.o
+
+Graph/Vertex/Vertex.i: Graph/Vertex/Vertex.cpp.i
+
+.PHONY : Graph/Vertex/Vertex.i
+
+# target to preprocess a source file
+Graph/Vertex/Vertex.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.i
+.PHONY : Graph/Vertex/Vertex.cpp.i
+
+Graph/Vertex/Vertex.s: Graph/Vertex/Vertex.cpp.s
+
+.PHONY : Graph/Vertex/Vertex.s
+
+# target to generate assembly for a file
+Graph/Vertex/Vertex.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.s
+.PHONY : Graph/Vertex/Vertex.cpp.s
+
+Solver/RouteDistance.o: Solver/RouteDistance.cpp.o
+
+.PHONY : Solver/RouteDistance.o
+
+# target to build an object file
+Solver/RouteDistance.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance.cpp.o
+.PHONY : Solver/RouteDistance.cpp.o
+
+Solver/RouteDistance.i: Solver/RouteDistance.cpp.i
+
+.PHONY : Solver/RouteDistance.i
+
+# target to preprocess a source file
+Solver/RouteDistance.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance.cpp.i
+.PHONY : Solver/RouteDistance.cpp.i
+
+Solver/RouteDistance.s: Solver/RouteDistance.cpp.s
+
+.PHONY : Solver/RouteDistance.s
+
+# target to generate assembly for a file
+Solver/RouteDistance.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance.cpp.s
+.PHONY : Solver/RouteDistance.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +294,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... railsRoad"
+	@echo "... FileParser/FileParser.o"
+	@echo "... FileParser/FileParser.i"
+	@echo "... FileParser/FileParser.s"
+	@echo "... Graph/Edge/Edge.o"
+	@echo "... Graph/Edge/Edge.i"
+	@echo "... Graph/Edge/Edge.s"
+	@echo "... Graph/Graph.o"
+	@echo "... Graph/Graph.i"
+	@echo "... Graph/Graph.s"
+	@echo "... Graph/Vertex/Vertex.o"
+	@echo "... Graph/Vertex/Vertex.i"
+	@echo "... Graph/Vertex/Vertex.s"
+	@echo "... Solver/RouteDistance.o"
+	@echo "... Solver/RouteDistance.i"
+	@echo "... Solver/RouteDistance.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

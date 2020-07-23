@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mohamedsayed/CLionProjects/railsRoad/FileParser/FileParser.h
+cstdio
+-
+../Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
+
+/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
+Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+vector
+-
+
+/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+
+/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance.h
+
+/Users/mohamedsayed/CLionProjects/railsRoad/main.cpp
+iostream
+-
+vector
+-
+map
+-
+math.h
+-
+algorithm
+-
+unordered_map
+-
+sstream
+-
+./Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
+./FileParser/FileParser.h
+/Users/mohamedsayed/CLionProjects/railsRoad/FileParser/FileParser.h
+Solver/RouteDistance.h
+/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance.h
+
