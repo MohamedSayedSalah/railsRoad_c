@@ -312,6 +312,33 @@ Solver/RouteDistance/RouteDistance.cpp.s:
 	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.s
 .PHONY : Solver/RouteDistance/RouteDistance.cpp.s
 
+Solver/ShortestPath/ShortestPath.o: Solver/ShortestPath/ShortestPath.cpp.o
+
+.PHONY : Solver/ShortestPath/ShortestPath.o
+
+# target to build an object file
+Solver/ShortestPath/ShortestPath.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/ShortestPath/ShortestPath.cpp.o
+.PHONY : Solver/ShortestPath/ShortestPath.cpp.o
+
+Solver/ShortestPath/ShortestPath.i: Solver/ShortestPath/ShortestPath.cpp.i
+
+.PHONY : Solver/ShortestPath/ShortestPath.i
+
+# target to preprocess a source file
+Solver/ShortestPath/ShortestPath.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/ShortestPath/ShortestPath.cpp.i
+.PHONY : Solver/ShortestPath/ShortestPath.cpp.i
+
+Solver/ShortestPath/ShortestPath.s: Solver/ShortestPath/ShortestPath.cpp.s
+
+.PHONY : Solver/ShortestPath/ShortestPath.s
+
+# target to generate assembly for a file
+Solver/ShortestPath/ShortestPath.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/ShortestPath/ShortestPath.cpp.s
+.PHONY : Solver/ShortestPath/ShortestPath.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -369,6 +396,9 @@ help:
 	@echo "... Solver/RouteDistance/RouteDistance.o"
 	@echo "... Solver/RouteDistance/RouteDistance.i"
 	@echo "... Solver/RouteDistance/RouteDistance.s"
+	@echo "... Solver/ShortestPath/ShortestPath.o"
+	@echo "... Solver/ShortestPath/ShortestPath.i"
+	@echo "... Solver/ShortestPath/ShortestPath.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -5,7 +5,8 @@
 #include <cstdlib>
 #include "FileParser.h"
 #include <sstream>
-using namespace std ;
+
+using namespace std;
 
 
 void FileParser::file_reader() {
@@ -17,18 +18,18 @@ void FileParser::file_reader() {
 
 //     reads text until [*] delimiter
     fscanf(fptr, "%[^*]", c);
-    parse_file_content(c) ;
+    parse_file_content(c);
 
     fclose(fptr);
 
 }
 
 void FileParser::parse_file_content(char *input) {
-        string c ;
-        stringstream ss ;
-        ss << input ;
-        while (ss >> c ){
-            Graph::getInstance()->fill_matrix(c) ;
-            Graph::getInstance()->fillAdjList(c) ;
-        }
+    string c;
+    stringstream ss;
+    ss << input;
+    while (ss >> c) {
+        Graph::getInstance()->fill_matrix(c);
+        Graph::getInstance()->fillAdjList(c);
+    }
 }

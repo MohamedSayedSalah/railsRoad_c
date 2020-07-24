@@ -22,19 +22,15 @@ vector
 vector
 -
 
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.cpp
-DifferentTrips.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h
-../../Graph/Vertex/Vertex.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.cpp
+cstring
+-
+ShortestPath.h
+/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.h
 ../../Graph/Graph.h
 /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
-queue
--
 iostream
 -
 
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h
-../../Graph/Vertex/Vertex.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.h
 

@@ -124,6 +124,12 @@
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance/RouteDistance.h">
 			<Option target="railsRoad"/>
 		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.h">
+			<Option target="railsRoad"/>
+		</Unit>
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/main.cpp">
 			<Option target="railsRoad"/>
 		</Unit>

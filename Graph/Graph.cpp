@@ -9,7 +9,7 @@
 using namespace std;
 
 Graph::Graph() {
-    memset(adj_matrix, 0, sizeof adj_matrix);
+    memset(adj_matrix, 1 << 30, sizeof adj_matrix);
     adj_list.resize(26) ;
 }
 

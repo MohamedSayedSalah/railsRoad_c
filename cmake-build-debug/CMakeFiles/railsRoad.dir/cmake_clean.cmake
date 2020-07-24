@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o"
   "CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.o"
   "CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.o"
+  "CMakeFiles/railsRoad.dir/Solver/ShortestPath/ShortestPath.cpp.o"
   "CMakeFiles/railsRoad.dir/main.cpp.o"
   "railsRoad"
   "railsRoad.pdb"
