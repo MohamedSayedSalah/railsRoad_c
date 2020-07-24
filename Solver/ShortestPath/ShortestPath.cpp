@@ -7,7 +7,7 @@
 #include "../../Graph/Graph.h"
 #include <iostream>
 
-int ShortestPath::dijkstra(char s, char d) {
+int ShortestPath::dijkstra(char s, char d) { // V * V
 
     bool visited[26];
     int dis[26];
@@ -28,11 +28,12 @@ int ShortestPath::dijkstra(char s, char d) {
         if (idx == -1) break;
         visited[idx] = true;
         for (int i = 0; i < 26; i++) {
+            if (idx == i ) continue ;
             int cellValue = *(Graph::getInstance()->getAdjMatrix() + ((idx * 26) + i));
             if (!cellValue) {
                 cellValue = 1 << 30;
             }
-            if (cellValue + dis[idx] < dis[i]) {
+            if (cellValue + dis[idx] < dis[i] || !dis[i]) { // Relax
                 dis[i] = cellValue + dis[idx];
             }
         }
@@ -42,5 +43,7 @@ int ShortestPath::dijkstra(char s, char d) {
 }
 
 void ShortestPath::solveFromEightToNine() {
- cout << dijkstra('A', 'C') << endl;
+ cout <<"Output #8: " <<  dijkstra('A', 'C') << endl;
+ cout <<"Output #9: " << dijkstra('B', 'B') << endl;
+
 }
