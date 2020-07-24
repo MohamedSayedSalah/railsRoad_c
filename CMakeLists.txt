@@ -3,4 +3,4 @@ project(railsRoad)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(railsRoad main.cpp Graph/Vertex/Vertex.cpp Graph/Vertex/Vertex.h Graph/Edge/Edge.cpp Graph/Edge/Edge.h Graph/Graph.cpp Graph/Graph.h FileParser/FileParser.cpp FileParser/FileParser.h Solver/RouteDistance.cpp Solver/RouteDistance.h)
+add_executable(railsRoad main.cpp Graph/Vertex/Vertex.cpp Graph/Vertex/Vertex.h Graph/Edge/Edge.cpp Graph/Edge/Edge.h Graph/Graph.cpp Graph/Graph.h FileParser/FileParser.cpp FileParser/FileParser.h Solver/RouteDistance/RouteDistance.cpp Solver/RouteDistance/RouteDistance.h Solver/NumberOfTrips/NumberOfTrips.cpp Solver/NumberOfTrips/NumberOfTrips.h)

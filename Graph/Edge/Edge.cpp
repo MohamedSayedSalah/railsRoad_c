@@ -3,3 +3,19 @@
 //
 
 #include "Edge.h"
+#include "../Vertex/Vertex.h"
+
+
+ Edge::Edge() {};
+
+ Edge::Edge(Vertex * vertex, int i) {
+   to = vertex ;
+   weight = i ;
+}
+
+Vertex *Edge::getTo() {
+    return to;
+}
+
+
+

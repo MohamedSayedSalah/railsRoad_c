@@ -8,9 +8,20 @@
 
 //#include "../Edge/Edge.h"
 
+#include "../Edge/Edge.h"
+#include <vector>
+using  namespace std ;
+class  Edge ;
 class Vertex {
     char id ;
-//    vector<Edge> edges ;
+    vector<Edge*> * edges ;
+
+public:
+    char getId() ;
+    Vertex() ;
+    Vertex(char id) ;
+
+    vector<Edge *> *getEdges() const;
 };
 
 

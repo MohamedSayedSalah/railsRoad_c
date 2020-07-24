@@ -106,10 +106,16 @@
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h">
 			<Option target="railsRoad"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance.cpp">
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/NumberOfTrips/NumberOfTrips.cpp">
 			<Option target="railsRoad"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance.h">
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/NumberOfTrips/NumberOfTrips.h">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance/RouteDistance.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance/RouteDistance.h">
 			<Option target="railsRoad"/>
 		</Unit>
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/main.cpp">

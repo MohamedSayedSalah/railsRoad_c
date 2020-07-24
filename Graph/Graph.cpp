@@ -4,8 +4,15 @@
 
 #include <string>
 #include "Graph.h"
-
+#include "Edge/Edge.h"
+#include <iostream>
 using namespace std;
+
+Graph::Graph() {
+    memset(adj_matrix, 0, sizeof adj_matrix);
+    adj_list.resize(26) ;
+}
+
 
 void Graph::fill_matrix(string direction) {
     if (direction.size() != 3) {
@@ -16,8 +23,25 @@ void Graph::fill_matrix(string direction) {
     adj_matrix[direction[0] - 'A'][direction[1] - 'A'] = direction[2] - '0';
 }
 
-Graph::Graph() {
-    memset(adj_matrix, 0, sizeof adj_matrix);
+Vertex * createNewVertex(char id ){
+    return new Vertex(id) ;
+}
+
+
+void Graph::fillAdjList(string direction) {
+
+    // from
+    if (adj_list[(direction[0] - 'A')] ==  NULL ){
+        adj_list[(direction[0] - 'A')] = createNewVertex(direction[0]) ;
+    }
+
+    // to
+    if (adj_list[(direction[1] - 'A')] ==  NULL ){
+        adj_list[(direction[1] - 'A')] = createNewVertex(direction[1]) ;
+    }
+
+    Edge *edge = new Edge( adj_list[(direction[1] - 'A')] , direction[2]-'0' );
+    adj_list[(direction[0] - 'A')]->getEdges()->push_back(edge) ;
 }
 
 Graph *Graph::getInstance() {
@@ -26,7 +50,7 @@ Graph *Graph::getInstance() {
     return graph;
 };
 
-const vector<Vertex> *Graph::getAdjList() const {
+ vector<Vertex*> Graph::getAdjList()  {
     return adj_list;
 }
 
@@ -46,3 +70,4 @@ int *Graph::getAdjMatrix() {
     int *ptr  = &adj_matrix[0][0] ;
     return ptr;
 }
+

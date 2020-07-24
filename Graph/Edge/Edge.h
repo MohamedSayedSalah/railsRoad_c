@@ -7,10 +7,16 @@
 
 
 #include "../Vertex/Vertex.h"
-
+class Vertex ;
 class Edge {
-     Vertex to ;
-     int weight ;
+public:
+    Vertex *to ;
+    int weight{} ;
+    Edge() ;
+    Edge(Vertex *vertex , int w) ;
+
+    Vertex *getTo() ;
+
 };
 
 

@@ -6,8 +6,13 @@
 #define RAILSROAD_ROUTEDISTANCE_H
 
 class RouteDistance {
+    static  string rules []  ;
+    RouteDistance(){} ;
 public:
-    static int trip(string trip);
+
+     static int trip(string trip);
+     static void solveFromOneToFive() ;
+
 };
 
 #endif //RAILSROAD_ROUTEDISTANCE_H

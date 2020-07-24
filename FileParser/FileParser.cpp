@@ -29,5 +29,6 @@ void FileParser::parse_file_content(char *input) {
         ss << input ;
         while (ss >> c ){
             Graph::getInstance()->fill_matrix(c) ;
+            Graph::getInstance()->fillAdjList(c) ;
         }
 }

@@ -14,7 +14,7 @@ using namespace std;
 class Graph {
 private:
     static Graph* graph ;
-    vector< Vertex >  adj_list[26] ;
+    vector< Vertex* >  adj_list  ;
     int adj_matrix [26][26];
     Graph();
 
@@ -25,10 +25,10 @@ private:
 
 public:
     void fill_matrix (string direction) ;
+    void fillAdjList(string direction) ;
     static Graph* getInstance( );
-    const vector<Vertex> *getAdjList() const;
+    vector<Vertex*> getAdjList();
     int *getAdjMatrix() ;
-//    const vector<int> *getAdjMatrix() const;
     ~Graph();
 
 };

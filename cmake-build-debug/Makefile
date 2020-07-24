@@ -231,32 +231,59 @@ Graph/Vertex/Vertex.cpp.s:
 	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.s
 .PHONY : Graph/Vertex/Vertex.cpp.s
 
-Solver/RouteDistance.o: Solver/RouteDistance.cpp.o
+Solver/NumberOfTrips/NumberOfTrips.o: Solver/NumberOfTrips/NumberOfTrips.cpp.o
 
-.PHONY : Solver/RouteDistance.o
+.PHONY : Solver/NumberOfTrips/NumberOfTrips.o
 
 # target to build an object file
-Solver/RouteDistance.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance.cpp.o
-.PHONY : Solver/RouteDistance.cpp.o
+Solver/NumberOfTrips/NumberOfTrips.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.o
+.PHONY : Solver/NumberOfTrips/NumberOfTrips.cpp.o
 
-Solver/RouteDistance.i: Solver/RouteDistance.cpp.i
+Solver/NumberOfTrips/NumberOfTrips.i: Solver/NumberOfTrips/NumberOfTrips.cpp.i
 
-.PHONY : Solver/RouteDistance.i
+.PHONY : Solver/NumberOfTrips/NumberOfTrips.i
 
 # target to preprocess a source file
-Solver/RouteDistance.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance.cpp.i
-.PHONY : Solver/RouteDistance.cpp.i
+Solver/NumberOfTrips/NumberOfTrips.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.i
+.PHONY : Solver/NumberOfTrips/NumberOfTrips.cpp.i
 
-Solver/RouteDistance.s: Solver/RouteDistance.cpp.s
+Solver/NumberOfTrips/NumberOfTrips.s: Solver/NumberOfTrips/NumberOfTrips.cpp.s
 
-.PHONY : Solver/RouteDistance.s
+.PHONY : Solver/NumberOfTrips/NumberOfTrips.s
 
 # target to generate assembly for a file
-Solver/RouteDistance.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance.cpp.s
-.PHONY : Solver/RouteDistance.cpp.s
+Solver/NumberOfTrips/NumberOfTrips.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.s
+.PHONY : Solver/NumberOfTrips/NumberOfTrips.cpp.s
+
+Solver/RouteDistance/RouteDistance.o: Solver/RouteDistance/RouteDistance.cpp.o
+
+.PHONY : Solver/RouteDistance/RouteDistance.o
+
+# target to build an object file
+Solver/RouteDistance/RouteDistance.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.o
+.PHONY : Solver/RouteDistance/RouteDistance.cpp.o
+
+Solver/RouteDistance/RouteDistance.i: Solver/RouteDistance/RouteDistance.cpp.i
+
+.PHONY : Solver/RouteDistance/RouteDistance.i
+
+# target to preprocess a source file
+Solver/RouteDistance/RouteDistance.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.i
+.PHONY : Solver/RouteDistance/RouteDistance.cpp.i
+
+Solver/RouteDistance/RouteDistance.s: Solver/RouteDistance/RouteDistance.cpp.s
+
+.PHONY : Solver/RouteDistance/RouteDistance.s
+
+# target to generate assembly for a file
+Solver/RouteDistance/RouteDistance.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.s
+.PHONY : Solver/RouteDistance/RouteDistance.cpp.s
 
 main.o: main.cpp.o
 
@@ -306,9 +333,12 @@ help:
 	@echo "... Graph/Vertex/Vertex.o"
 	@echo "... Graph/Vertex/Vertex.i"
 	@echo "... Graph/Vertex/Vertex.s"
-	@echo "... Solver/RouteDistance.o"
-	@echo "... Solver/RouteDistance.i"
-	@echo "... Solver/RouteDistance.s"
+	@echo "... Solver/NumberOfTrips/NumberOfTrips.o"
+	@echo "... Solver/NumberOfTrips/NumberOfTrips.i"
+	@echo "... Solver/NumberOfTrips/NumberOfTrips.s"
+	@echo "... Solver/RouteDistance/RouteDistance.o"
+	@echo "... Solver/RouteDistance/RouteDistance.i"
+	@echo "... Solver/RouteDistance/RouteDistance.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
