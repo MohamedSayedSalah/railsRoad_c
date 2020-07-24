@@ -231,6 +231,33 @@ Graph/Vertex/Vertex.cpp.s:
 	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.s
 .PHONY : Graph/Vertex/Vertex.cpp.s
 
+Solver/DifferentTrips/DifferentTrips.o: Solver/DifferentTrips/DifferentTrips.cpp.o
+
+.PHONY : Solver/DifferentTrips/DifferentTrips.o
+
+# target to build an object file
+Solver/DifferentTrips/DifferentTrips.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o
+.PHONY : Solver/DifferentTrips/DifferentTrips.cpp.o
+
+Solver/DifferentTrips/DifferentTrips.i: Solver/DifferentTrips/DifferentTrips.cpp.i
+
+.PHONY : Solver/DifferentTrips/DifferentTrips.i
+
+# target to preprocess a source file
+Solver/DifferentTrips/DifferentTrips.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.i
+.PHONY : Solver/DifferentTrips/DifferentTrips.cpp.i
+
+Solver/DifferentTrips/DifferentTrips.s: Solver/DifferentTrips/DifferentTrips.cpp.s
+
+.PHONY : Solver/DifferentTrips/DifferentTrips.s
+
+# target to generate assembly for a file
+Solver/DifferentTrips/DifferentTrips.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.s
+.PHONY : Solver/DifferentTrips/DifferentTrips.cpp.s
+
 Solver/NumberOfTrips/NumberOfTrips.o: Solver/NumberOfTrips/NumberOfTrips.cpp.o
 
 .PHONY : Solver/NumberOfTrips/NumberOfTrips.o
@@ -333,6 +360,9 @@ help:
 	@echo "... Graph/Vertex/Vertex.o"
 	@echo "... Graph/Vertex/Vertex.i"
 	@echo "... Graph/Vertex/Vertex.s"
+	@echo "... Solver/DifferentTrips/DifferentTrips.o"
+	@echo "... Solver/DifferentTrips/DifferentTrips.i"
+	@echo "... Solver/DifferentTrips/DifferentTrips.s"
 	@echo "... Solver/NumberOfTrips/NumberOfTrips.o"
 	@echo "... Solver/NumberOfTrips/NumberOfTrips.i"
 	@echo "... Solver/NumberOfTrips/NumberOfTrips.s"

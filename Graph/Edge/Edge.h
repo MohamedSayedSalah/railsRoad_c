@@ -9,12 +9,12 @@
 #include "../Vertex/Vertex.h"
 class Vertex ;
 class Edge {
-public:
     Vertex *to ;
-    int weight{} ;
+    int weight ;
+public:
     Edge() ;
     Edge(Vertex *vertex , int w) ;
-
+    int getWeight() ;
     Vertex *getTo() ;
 
 };

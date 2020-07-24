@@ -17,5 +17,9 @@ Vertex *Edge::getTo() {
     return to;
 }
 
+int Edge::getWeight() {
+    return weight;
+}
+
 
 

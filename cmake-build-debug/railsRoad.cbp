@@ -106,6 +106,12 @@
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h">
 			<Option target="railsRoad"/>
 		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h">
+			<Option target="railsRoad"/>
+		</Unit>
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/NumberOfTrips/NumberOfTrips.cpp">
 			<Option target="railsRoad"/>
 		</Unit>

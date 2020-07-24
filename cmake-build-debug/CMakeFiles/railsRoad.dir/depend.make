@@ -20,6 +20,12 @@ CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.o: ../Graph/Edge/Edge.h
 CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.o: ../Graph/Vertex/Vertex.cpp
 CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.o: ../Graph/Vertex/Vertex.h
 
+CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o: ../Graph/Edge/Edge.h
+CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o: ../Graph/Graph.h
+CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o: ../Graph/Vertex/Vertex.h
+CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o: ../Solver/DifferentTrips/DifferentTrips.cpp
+CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o: ../Solver/DifferentTrips/DifferentTrips.h
+
 CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.o: ../Graph/Edge/Edge.h
 CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.o: ../Graph/Graph.h
 CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.o: ../Graph/Vertex/Vertex.h
@@ -36,6 +42,7 @@ CMakeFiles/railsRoad.dir/main.cpp.o: ../FileParser/FileParser.h
 CMakeFiles/railsRoad.dir/main.cpp.o: ../Graph/Edge/Edge.h
 CMakeFiles/railsRoad.dir/main.cpp.o: ../Graph/Graph.h
 CMakeFiles/railsRoad.dir/main.cpp.o: ../Graph/Vertex/Vertex.h
+CMakeFiles/railsRoad.dir/main.cpp.o: ../Solver/DifferentTrips/DifferentTrips.h
 CMakeFiles/railsRoad.dir/main.cpp.o: ../Solver/NumberOfTrips/NumberOfTrips.h
 CMakeFiles/railsRoad.dir/main.cpp.o: ../Solver/RouteDistance/RouteDistance.h
 CMakeFiles/railsRoad.dir/main.cpp.o: ../main.cpp

@@ -20,6 +20,12 @@ CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.o
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.h
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.cpp
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o
+ /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.h
+ /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
+ /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+ /Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.cpp
+ /Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h
 CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.o
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.h
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
@@ -37,6 +43,7 @@ CMakeFiles/railsRoad.dir/main.cpp.o
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.h
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
  /Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+ /Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h
  /Users/mohamedsayed/CLionProjects/railsRoad/Solver/NumberOfTrips/NumberOfTrips.h
  /Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance/RouteDistance.h
  /Users/mohamedsayed/CLionProjects/railsRoad/main.cpp
