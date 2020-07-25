@@ -5,7 +5,7 @@
 #include <string>
 #include "Graph.h"
 #include "Edge/Edge.h"
-#include <iostream>
+#include "../Util/RouteParser.cpp"
 using namespace std;
 
 Graph::Graph() {
@@ -15,12 +15,8 @@ Graph::Graph() {
 
 
 void Graph::fill_matrix(string direction) {
-    if (direction.size() != 3) {
-        printf("Error parsing input");
-        // Program exits if file pointer returns NULL.
-        exit(1);
-    }
-    adj_matrix[direction[0] - 'A'][direction[1] - 'A'] = direction[2] - '0';
+    RouteParser routeParser(direction) ;
+    adj_matrix[routeParser.getFrom() - 'A'][routeParser.getTo() - 'A'] = routeParser.getDistance();
 }
 
 Vertex * createNewVertex(char id ){
@@ -29,19 +25,19 @@ Vertex * createNewVertex(char id ){
 
 
 void Graph::fillAdjList(string direction) {
-
+    RouteParser routeParser(direction) ;
     // from
-    if (adj_list[(direction[0] - 'A')] ==  NULL ){
-        adj_list[(direction[0] - 'A')] = createNewVertex(direction[0]) ;
+    if (adj_list[(routeParser.getFrom() - 'A')] ==  NULL ){
+        adj_list[(routeParser.getFrom() - 'A')] = createNewVertex(routeParser.getFrom()) ;
     }
 
     // to
-    if (adj_list[(direction[1] - 'A')] ==  NULL ){
-        adj_list[(direction[1] - 'A')] = createNewVertex(direction[1]) ;
+    if (adj_list[(routeParser.getTo() - 'A')] ==  NULL ){
+        adj_list[(routeParser.getTo() - 'A')] = createNewVertex(routeParser.getTo()) ;
     }
 
-    Edge *edge = new Edge( adj_list[(direction[1] - 'A')] , direction[2]-'0' );
-    adj_list[(direction[0] - 'A')]->getEdges()->push_back(edge) ;
+    Edge *edge = new Edge( adj_list[(routeParser.getTo() - 'A')] , routeParser.getDistance() );
+    adj_list[(routeParser.getFrom() - 'A')]->getEdges()->push_back(edge) ;
 }
 
 Graph *Graph::getInstance() {
@@ -54,9 +50,6 @@ Graph *Graph::getInstance() {
     return adj_list;
 }
 
-//const vector<int> *Graph::getAdjMatrix() const {
-//    return adj_matrix;
-//}
 
 
 Graph::~Graph() {

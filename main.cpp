@@ -8,15 +8,10 @@
 
 using namespace std;
 
-
+#include "./Util/Initializer.cpp"
 int main() {
-    Graph *graph = graph->getInstance();
-    FileParser fileParser;
-    fileParser.file_reader();
-//    RouteDistance::solveFromOneToFive();
-//    NumberOfTrips::solveFromSixToSeven();
-//    DifferentTrips::solveTen() ;
-    ShortestPath::solveFromEightToNine() ;
+
+    Initializer::initialize() ;
 
     return 0;
 }

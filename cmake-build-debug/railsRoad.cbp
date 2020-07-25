@@ -130,6 +130,9 @@
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.h">
 			<Option target="railsRoad"/>
 		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/Util/RouteParser.cpp">
+			<Option target="railsRoad"/>
+		</Unit>
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/main.cpp">
 			<Option target="railsRoad"/>
 		</Unit>

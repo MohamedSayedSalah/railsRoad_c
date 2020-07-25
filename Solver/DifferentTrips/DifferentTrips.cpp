@@ -34,7 +34,7 @@ int DifferentTrips::dfs(char current, char e, int distance) {
 }
 
 void DifferentTrips::solveTen() {
-  memset(mem , -1 , sizeof mem) ;
+    memset(mem , -1 , sizeof mem) ;
     cout << "Output #10: "<< dfs('C' ,'C'  , 0) << endl ;
 }
 
