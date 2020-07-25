@@ -6,67 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/Users/mohamedsayed/CLionProjects/railsRoad/FileParser/FileParser.h
-cstdio
--
-../Graph/Graph.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
-
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Edge/Edge.h
 ../Vertex/Vertex.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h
 
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h
 Vertex/Vertex.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h
 vector
 -
 
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h
 ../Edge/Edge.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Edge/Edge.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Edge/Edge.h
 vector
 -
 
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.cpp
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.cpp
 DifferentTrips.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h
 ../../Graph/Vertex/Vertex.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h
 ../../Graph/Graph.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h
 queue
 -
 iostream
 -
 
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h
 ../../Graph/Vertex/Vertex.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Vertex/Vertex.h
-
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/NumberOfTrips/NumberOfTrips.h
-
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance/RouteDistance.h
-
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.h
-
-/Users/mohamedsayed/CLionProjects/railsRoad/Util/Initializer.cpp
-
-/Users/mohamedsayed/CLionProjects/railsRoad/main.cpp
-./Graph/Graph.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Graph/Graph.h
-./FileParser/FileParser.h
-/Users/mohamedsayed/CLionProjects/railsRoad/FileParser/FileParser.h
-Solver/RouteDistance/RouteDistance.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/RouteDistance/RouteDistance.h
-Solver/NumberOfTrips/NumberOfTrips.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/NumberOfTrips/NumberOfTrips.h
-Solver/DifferentTrips/DifferentTrips.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/DifferentTrips/DifferentTrips.h
-Solver/ShortestPath/ShortestPath.h
-/Users/mohamedsayed/CLionProjects/railsRoad/Solver/ShortestPath/ShortestPath.h
-iostream
--
-./Util/Initializer.cpp
-/Users/mohamedsayed/CLionProjects/railsRoad/Util/Initializer.cpp
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h
 

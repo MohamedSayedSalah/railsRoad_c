@@ -123,275 +123,275 @@ railsRoad/fast:
 	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/build
 .PHONY : railsRoad/fast
 
-FileParser/FileParser.o: FileParser/FileParser.cpp.o
+src/FileParser/FileParser.o: src/FileParser/FileParser.cpp.o
 
-.PHONY : FileParser/FileParser.o
-
-# target to build an object file
-FileParser/FileParser.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/FileParser/FileParser.cpp.o
-.PHONY : FileParser/FileParser.cpp.o
-
-FileParser/FileParser.i: FileParser/FileParser.cpp.i
-
-.PHONY : FileParser/FileParser.i
-
-# target to preprocess a source file
-FileParser/FileParser.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/FileParser/FileParser.cpp.i
-.PHONY : FileParser/FileParser.cpp.i
-
-FileParser/FileParser.s: FileParser/FileParser.cpp.s
-
-.PHONY : FileParser/FileParser.s
-
-# target to generate assembly for a file
-FileParser/FileParser.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/FileParser/FileParser.cpp.s
-.PHONY : FileParser/FileParser.cpp.s
-
-Graph/Edge/Edge.o: Graph/Edge/Edge.cpp.o
-
-.PHONY : Graph/Edge/Edge.o
+.PHONY : src/FileParser/FileParser.o
 
 # target to build an object file
-Graph/Edge/Edge.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Edge/Edge.cpp.o
-.PHONY : Graph/Edge/Edge.cpp.o
+src/FileParser/FileParser.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/FileParser/FileParser.cpp.o
+.PHONY : src/FileParser/FileParser.cpp.o
 
-Graph/Edge/Edge.i: Graph/Edge/Edge.cpp.i
+src/FileParser/FileParser.i: src/FileParser/FileParser.cpp.i
 
-.PHONY : Graph/Edge/Edge.i
+.PHONY : src/FileParser/FileParser.i
 
 # target to preprocess a source file
-Graph/Edge/Edge.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Edge/Edge.cpp.i
-.PHONY : Graph/Edge/Edge.cpp.i
+src/FileParser/FileParser.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/FileParser/FileParser.cpp.i
+.PHONY : src/FileParser/FileParser.cpp.i
 
-Graph/Edge/Edge.s: Graph/Edge/Edge.cpp.s
+src/FileParser/FileParser.s: src/FileParser/FileParser.cpp.s
 
-.PHONY : Graph/Edge/Edge.s
+.PHONY : src/FileParser/FileParser.s
 
 # target to generate assembly for a file
-Graph/Edge/Edge.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Edge/Edge.cpp.s
-.PHONY : Graph/Edge/Edge.cpp.s
+src/FileParser/FileParser.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/FileParser/FileParser.cpp.s
+.PHONY : src/FileParser/FileParser.cpp.s
 
-Graph/Graph.o: Graph/Graph.cpp.o
+src/Graph/Edge/Edge.o: src/Graph/Edge/Edge.cpp.o
 
-.PHONY : Graph/Graph.o
+.PHONY : src/Graph/Edge/Edge.o
 
 # target to build an object file
-Graph/Graph.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Graph.cpp.o
-.PHONY : Graph/Graph.cpp.o
+src/Graph/Edge/Edge.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Edge/Edge.cpp.o
+.PHONY : src/Graph/Edge/Edge.cpp.o
 
-Graph/Graph.i: Graph/Graph.cpp.i
+src/Graph/Edge/Edge.i: src/Graph/Edge/Edge.cpp.i
 
-.PHONY : Graph/Graph.i
+.PHONY : src/Graph/Edge/Edge.i
 
 # target to preprocess a source file
-Graph/Graph.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Graph.cpp.i
-.PHONY : Graph/Graph.cpp.i
+src/Graph/Edge/Edge.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Edge/Edge.cpp.i
+.PHONY : src/Graph/Edge/Edge.cpp.i
 
-Graph/Graph.s: Graph/Graph.cpp.s
+src/Graph/Edge/Edge.s: src/Graph/Edge/Edge.cpp.s
 
-.PHONY : Graph/Graph.s
+.PHONY : src/Graph/Edge/Edge.s
 
 # target to generate assembly for a file
-Graph/Graph.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Graph.cpp.s
-.PHONY : Graph/Graph.cpp.s
+src/Graph/Edge/Edge.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Edge/Edge.cpp.s
+.PHONY : src/Graph/Edge/Edge.cpp.s
 
-Graph/Vertex/Vertex.o: Graph/Vertex/Vertex.cpp.o
+src/Graph/Graph.o: src/Graph/Graph.cpp.o
 
-.PHONY : Graph/Vertex/Vertex.o
+.PHONY : src/Graph/Graph.o
 
 # target to build an object file
-Graph/Vertex/Vertex.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.o
-.PHONY : Graph/Vertex/Vertex.cpp.o
+src/Graph/Graph.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Graph.cpp.o
+.PHONY : src/Graph/Graph.cpp.o
 
-Graph/Vertex/Vertex.i: Graph/Vertex/Vertex.cpp.i
+src/Graph/Graph.i: src/Graph/Graph.cpp.i
 
-.PHONY : Graph/Vertex/Vertex.i
+.PHONY : src/Graph/Graph.i
 
 # target to preprocess a source file
-Graph/Vertex/Vertex.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.i
-.PHONY : Graph/Vertex/Vertex.cpp.i
+src/Graph/Graph.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Graph.cpp.i
+.PHONY : src/Graph/Graph.cpp.i
 
-Graph/Vertex/Vertex.s: Graph/Vertex/Vertex.cpp.s
+src/Graph/Graph.s: src/Graph/Graph.cpp.s
 
-.PHONY : Graph/Vertex/Vertex.s
+.PHONY : src/Graph/Graph.s
 
 # target to generate assembly for a file
-Graph/Vertex/Vertex.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Graph/Vertex/Vertex.cpp.s
-.PHONY : Graph/Vertex/Vertex.cpp.s
+src/Graph/Graph.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Graph.cpp.s
+.PHONY : src/Graph/Graph.cpp.s
 
-Solver/DifferentTrips/DifferentTrips.o: Solver/DifferentTrips/DifferentTrips.cpp.o
+src/Graph/Vertex/Vertex.o: src/Graph/Vertex/Vertex.cpp.o
 
-.PHONY : Solver/DifferentTrips/DifferentTrips.o
+.PHONY : src/Graph/Vertex/Vertex.o
 
 # target to build an object file
-Solver/DifferentTrips/DifferentTrips.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.o
-.PHONY : Solver/DifferentTrips/DifferentTrips.cpp.o
+src/Graph/Vertex/Vertex.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Vertex/Vertex.cpp.o
+.PHONY : src/Graph/Vertex/Vertex.cpp.o
 
-Solver/DifferentTrips/DifferentTrips.i: Solver/DifferentTrips/DifferentTrips.cpp.i
+src/Graph/Vertex/Vertex.i: src/Graph/Vertex/Vertex.cpp.i
 
-.PHONY : Solver/DifferentTrips/DifferentTrips.i
+.PHONY : src/Graph/Vertex/Vertex.i
 
 # target to preprocess a source file
-Solver/DifferentTrips/DifferentTrips.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.i
-.PHONY : Solver/DifferentTrips/DifferentTrips.cpp.i
+src/Graph/Vertex/Vertex.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Vertex/Vertex.cpp.i
+.PHONY : src/Graph/Vertex/Vertex.cpp.i
 
-Solver/DifferentTrips/DifferentTrips.s: Solver/DifferentTrips/DifferentTrips.cpp.s
+src/Graph/Vertex/Vertex.s: src/Graph/Vertex/Vertex.cpp.s
 
-.PHONY : Solver/DifferentTrips/DifferentTrips.s
+.PHONY : src/Graph/Vertex/Vertex.s
 
 # target to generate assembly for a file
-Solver/DifferentTrips/DifferentTrips.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/DifferentTrips/DifferentTrips.cpp.s
-.PHONY : Solver/DifferentTrips/DifferentTrips.cpp.s
+src/Graph/Vertex/Vertex.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Graph/Vertex/Vertex.cpp.s
+.PHONY : src/Graph/Vertex/Vertex.cpp.s
 
-Solver/NumberOfTrips/NumberOfTrips.o: Solver/NumberOfTrips/NumberOfTrips.cpp.o
+src/Solver/DifferentTrips/DifferentTrips.o: src/Solver/DifferentTrips/DifferentTrips.cpp.o
 
-.PHONY : Solver/NumberOfTrips/NumberOfTrips.o
+.PHONY : src/Solver/DifferentTrips/DifferentTrips.o
 
 # target to build an object file
-Solver/NumberOfTrips/NumberOfTrips.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.o
-.PHONY : Solver/NumberOfTrips/NumberOfTrips.cpp.o
+src/Solver/DifferentTrips/DifferentTrips.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/DifferentTrips/DifferentTrips.cpp.o
+.PHONY : src/Solver/DifferentTrips/DifferentTrips.cpp.o
 
-Solver/NumberOfTrips/NumberOfTrips.i: Solver/NumberOfTrips/NumberOfTrips.cpp.i
+src/Solver/DifferentTrips/DifferentTrips.i: src/Solver/DifferentTrips/DifferentTrips.cpp.i
 
-.PHONY : Solver/NumberOfTrips/NumberOfTrips.i
+.PHONY : src/Solver/DifferentTrips/DifferentTrips.i
 
 # target to preprocess a source file
-Solver/NumberOfTrips/NumberOfTrips.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.i
-.PHONY : Solver/NumberOfTrips/NumberOfTrips.cpp.i
+src/Solver/DifferentTrips/DifferentTrips.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/DifferentTrips/DifferentTrips.cpp.i
+.PHONY : src/Solver/DifferentTrips/DifferentTrips.cpp.i
 
-Solver/NumberOfTrips/NumberOfTrips.s: Solver/NumberOfTrips/NumberOfTrips.cpp.s
+src/Solver/DifferentTrips/DifferentTrips.s: src/Solver/DifferentTrips/DifferentTrips.cpp.s
 
-.PHONY : Solver/NumberOfTrips/NumberOfTrips.s
+.PHONY : src/Solver/DifferentTrips/DifferentTrips.s
 
 # target to generate assembly for a file
-Solver/NumberOfTrips/NumberOfTrips.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/NumberOfTrips/NumberOfTrips.cpp.s
-.PHONY : Solver/NumberOfTrips/NumberOfTrips.cpp.s
+src/Solver/DifferentTrips/DifferentTrips.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/DifferentTrips/DifferentTrips.cpp.s
+.PHONY : src/Solver/DifferentTrips/DifferentTrips.cpp.s
 
-Solver/RouteDistance/RouteDistance.o: Solver/RouteDistance/RouteDistance.cpp.o
+src/Solver/NumberOfTrips/NumberOfTrips.o: src/Solver/NumberOfTrips/NumberOfTrips.cpp.o
 
-.PHONY : Solver/RouteDistance/RouteDistance.o
+.PHONY : src/Solver/NumberOfTrips/NumberOfTrips.o
 
 # target to build an object file
-Solver/RouteDistance/RouteDistance.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.o
-.PHONY : Solver/RouteDistance/RouteDistance.cpp.o
+src/Solver/NumberOfTrips/NumberOfTrips.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/NumberOfTrips/NumberOfTrips.cpp.o
+.PHONY : src/Solver/NumberOfTrips/NumberOfTrips.cpp.o
 
-Solver/RouteDistance/RouteDistance.i: Solver/RouteDistance/RouteDistance.cpp.i
+src/Solver/NumberOfTrips/NumberOfTrips.i: src/Solver/NumberOfTrips/NumberOfTrips.cpp.i
 
-.PHONY : Solver/RouteDistance/RouteDistance.i
+.PHONY : src/Solver/NumberOfTrips/NumberOfTrips.i
 
 # target to preprocess a source file
-Solver/RouteDistance/RouteDistance.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.i
-.PHONY : Solver/RouteDistance/RouteDistance.cpp.i
+src/Solver/NumberOfTrips/NumberOfTrips.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/NumberOfTrips/NumberOfTrips.cpp.i
+.PHONY : src/Solver/NumberOfTrips/NumberOfTrips.cpp.i
 
-Solver/RouteDistance/RouteDistance.s: Solver/RouteDistance/RouteDistance.cpp.s
+src/Solver/NumberOfTrips/NumberOfTrips.s: src/Solver/NumberOfTrips/NumberOfTrips.cpp.s
 
-.PHONY : Solver/RouteDistance/RouteDistance.s
+.PHONY : src/Solver/NumberOfTrips/NumberOfTrips.s
 
 # target to generate assembly for a file
-Solver/RouteDistance/RouteDistance.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/RouteDistance/RouteDistance.cpp.s
-.PHONY : Solver/RouteDistance/RouteDistance.cpp.s
+src/Solver/NumberOfTrips/NumberOfTrips.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/NumberOfTrips/NumberOfTrips.cpp.s
+.PHONY : src/Solver/NumberOfTrips/NumberOfTrips.cpp.s
 
-Solver/ShortestPath/ShortestPath.o: Solver/ShortestPath/ShortestPath.cpp.o
+src/Solver/RouteDistance/RouteDistance.o: src/Solver/RouteDistance/RouteDistance.cpp.o
 
-.PHONY : Solver/ShortestPath/ShortestPath.o
+.PHONY : src/Solver/RouteDistance/RouteDistance.o
 
 # target to build an object file
-Solver/ShortestPath/ShortestPath.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/ShortestPath/ShortestPath.cpp.o
-.PHONY : Solver/ShortestPath/ShortestPath.cpp.o
+src/Solver/RouteDistance/RouteDistance.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/RouteDistance/RouteDistance.cpp.o
+.PHONY : src/Solver/RouteDistance/RouteDistance.cpp.o
 
-Solver/ShortestPath/ShortestPath.i: Solver/ShortestPath/ShortestPath.cpp.i
+src/Solver/RouteDistance/RouteDistance.i: src/Solver/RouteDistance/RouteDistance.cpp.i
 
-.PHONY : Solver/ShortestPath/ShortestPath.i
+.PHONY : src/Solver/RouteDistance/RouteDistance.i
 
 # target to preprocess a source file
-Solver/ShortestPath/ShortestPath.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/ShortestPath/ShortestPath.cpp.i
-.PHONY : Solver/ShortestPath/ShortestPath.cpp.i
+src/Solver/RouteDistance/RouteDistance.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/RouteDistance/RouteDistance.cpp.i
+.PHONY : src/Solver/RouteDistance/RouteDistance.cpp.i
 
-Solver/ShortestPath/ShortestPath.s: Solver/ShortestPath/ShortestPath.cpp.s
+src/Solver/RouteDistance/RouteDistance.s: src/Solver/RouteDistance/RouteDistance.cpp.s
 
-.PHONY : Solver/ShortestPath/ShortestPath.s
+.PHONY : src/Solver/RouteDistance/RouteDistance.s
 
 # target to generate assembly for a file
-Solver/ShortestPath/ShortestPath.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Solver/ShortestPath/ShortestPath.cpp.s
-.PHONY : Solver/ShortestPath/ShortestPath.cpp.s
+src/Solver/RouteDistance/RouteDistance.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/RouteDistance/RouteDistance.cpp.s
+.PHONY : src/Solver/RouteDistance/RouteDistance.cpp.s
 
-Util/RouteParser.o: Util/RouteParser.cpp.o
+src/Solver/ShortestPath/ShortestPath.o: src/Solver/ShortestPath/ShortestPath.cpp.o
 
-.PHONY : Util/RouteParser.o
+.PHONY : src/Solver/ShortestPath/ShortestPath.o
 
 # target to build an object file
-Util/RouteParser.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Util/RouteParser.cpp.o
-.PHONY : Util/RouteParser.cpp.o
+src/Solver/ShortestPath/ShortestPath.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/ShortestPath/ShortestPath.cpp.o
+.PHONY : src/Solver/ShortestPath/ShortestPath.cpp.o
 
-Util/RouteParser.i: Util/RouteParser.cpp.i
+src/Solver/ShortestPath/ShortestPath.i: src/Solver/ShortestPath/ShortestPath.cpp.i
 
-.PHONY : Util/RouteParser.i
+.PHONY : src/Solver/ShortestPath/ShortestPath.i
 
 # target to preprocess a source file
-Util/RouteParser.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Util/RouteParser.cpp.i
-.PHONY : Util/RouteParser.cpp.i
+src/Solver/ShortestPath/ShortestPath.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/ShortestPath/ShortestPath.cpp.i
+.PHONY : src/Solver/ShortestPath/ShortestPath.cpp.i
 
-Util/RouteParser.s: Util/RouteParser.cpp.s
+src/Solver/ShortestPath/ShortestPath.s: src/Solver/ShortestPath/ShortestPath.cpp.s
 
-.PHONY : Util/RouteParser.s
+.PHONY : src/Solver/ShortestPath/ShortestPath.s
 
 # target to generate assembly for a file
-Util/RouteParser.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Util/RouteParser.cpp.s
-.PHONY : Util/RouteParser.cpp.s
+src/Solver/ShortestPath/ShortestPath.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Solver/ShortestPath/ShortestPath.cpp.s
+.PHONY : src/Solver/ShortestPath/ShortestPath.cpp.s
 
-main.o: main.cpp.o
+src/Util/RouteParser.o: src/Util/RouteParser.cpp.o
 
-.PHONY : main.o
+.PHONY : src/Util/RouteParser.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/main.cpp.o
-.PHONY : main.cpp.o
+src/Util/RouteParser.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.o
+.PHONY : src/Util/RouteParser.cpp.o
 
-main.i: main.cpp.i
+src/Util/RouteParser.i: src/Util/RouteParser.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Util/RouteParser.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Util/RouteParser.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.i
+.PHONY : src/Util/RouteParser.cpp.i
 
-main.s: main.cpp.s
+src/Util/RouteParser.s: src/Util/RouteParser.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Util/RouteParser.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Util/RouteParser.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.s
+.PHONY : src/Util/RouteParser.cpp.s
+
+src/main.o: src/main.cpp.o
+
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -402,36 +402,36 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... railsRoad"
-	@echo "... FileParser/FileParser.o"
-	@echo "... FileParser/FileParser.i"
-	@echo "... FileParser/FileParser.s"
-	@echo "... Graph/Edge/Edge.o"
-	@echo "... Graph/Edge/Edge.i"
-	@echo "... Graph/Edge/Edge.s"
-	@echo "... Graph/Graph.o"
-	@echo "... Graph/Graph.i"
-	@echo "... Graph/Graph.s"
-	@echo "... Graph/Vertex/Vertex.o"
-	@echo "... Graph/Vertex/Vertex.i"
-	@echo "... Graph/Vertex/Vertex.s"
-	@echo "... Solver/DifferentTrips/DifferentTrips.o"
-	@echo "... Solver/DifferentTrips/DifferentTrips.i"
-	@echo "... Solver/DifferentTrips/DifferentTrips.s"
-	@echo "... Solver/NumberOfTrips/NumberOfTrips.o"
-	@echo "... Solver/NumberOfTrips/NumberOfTrips.i"
-	@echo "... Solver/NumberOfTrips/NumberOfTrips.s"
-	@echo "... Solver/RouteDistance/RouteDistance.o"
-	@echo "... Solver/RouteDistance/RouteDistance.i"
-	@echo "... Solver/RouteDistance/RouteDistance.s"
-	@echo "... Solver/ShortestPath/ShortestPath.o"
-	@echo "... Solver/ShortestPath/ShortestPath.i"
-	@echo "... Solver/ShortestPath/ShortestPath.s"
-	@echo "... Util/RouteParser.o"
-	@echo "... Util/RouteParser.i"
-	@echo "... Util/RouteParser.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... src/FileParser/FileParser.o"
+	@echo "... src/FileParser/FileParser.i"
+	@echo "... src/FileParser/FileParser.s"
+	@echo "... src/Graph/Edge/Edge.o"
+	@echo "... src/Graph/Edge/Edge.i"
+	@echo "... src/Graph/Edge/Edge.s"
+	@echo "... src/Graph/Graph.o"
+	@echo "... src/Graph/Graph.i"
+	@echo "... src/Graph/Graph.s"
+	@echo "... src/Graph/Vertex/Vertex.o"
+	@echo "... src/Graph/Vertex/Vertex.i"
+	@echo "... src/Graph/Vertex/Vertex.s"
+	@echo "... src/Solver/DifferentTrips/DifferentTrips.o"
+	@echo "... src/Solver/DifferentTrips/DifferentTrips.i"
+	@echo "... src/Solver/DifferentTrips/DifferentTrips.s"
+	@echo "... src/Solver/NumberOfTrips/NumberOfTrips.o"
+	@echo "... src/Solver/NumberOfTrips/NumberOfTrips.i"
+	@echo "... src/Solver/NumberOfTrips/NumberOfTrips.s"
+	@echo "... src/Solver/RouteDistance/RouteDistance.o"
+	@echo "... src/Solver/RouteDistance/RouteDistance.i"
+	@echo "... src/Solver/RouteDistance/RouteDistance.s"
+	@echo "... src/Solver/ShortestPath/ShortestPath.o"
+	@echo "... src/Solver/ShortestPath/ShortestPath.i"
+	@echo "... src/Solver/ShortestPath/ShortestPath.s"
+	@echo "... src/Util/RouteParser.o"
+	@echo "... src/Util/RouteParser.i"
+	@echo "... src/Util/RouteParser.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
 .PHONY : help
 
 
