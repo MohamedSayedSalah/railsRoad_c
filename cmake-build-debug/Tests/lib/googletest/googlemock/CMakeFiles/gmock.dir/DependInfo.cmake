@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock/src/gmock-all.cc" "/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+  "/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/src/gmock-all.cc" "/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../Tests/lib/googletest/googlemock/include"
-  "../Tests/lib/googletest/googlemock"
-  "../Tests/lib/googletest/googletest/include"
-  "../Tests/lib/googletest/googletest"
+  "../tests/lib/googletest/googlemock/include"
+  "../tests/lib/googletest/googlemock"
+  "../tests/lib/googletest/googletest/include"
+  "../tests/lib/googletest/googletest"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

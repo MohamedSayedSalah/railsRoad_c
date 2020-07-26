@@ -49,26 +49,26 @@ CMAKE_SOURCE_DIR = /Users/mohamedsayed/CLionProjects/railsRoad
 CMAKE_BINARY_DIR = /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend.make
+include tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend.make
 
 # Include the progress variables for this target.
-include Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make
+include tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/flags.make
+include tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/flags.make
 
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/flags.make
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../Tests/lib/googletest/googlemock/src/gmock-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock/src/gmock-all.cc
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/flags.make
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o: ../tests/lib/googletest/googlemock/src/gmock-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o"
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/src/gmock-all.cc
 
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/src/gmock-all.cc > CMakeFiles/gmock.dir/src/gmock-all.cc.i
 
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/src/gmock-all.cc -o CMakeFiles/gmock.dir/src/gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \
@@ -77,23 +77,23 @@ gmock_OBJECTS = \
 # External object files for target gmock
 gmock_EXTERNAL_OBJECTS =
 
-lib/libgmockd.a: Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
-lib/libgmockd.a: Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make
-lib/libgmockd.a: Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/link.txt
+lib/libgmockd.a: tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+lib/libgmockd.a: tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make
+lib/libgmockd.a: tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgmockd.a"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean_target.cmake
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gmock.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build: lib/libgmockd.a
 
-.PHONY : Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
+.PHONY : tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
 
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/clean:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
-.PHONY : Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/clean
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/clean:
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock && $(CMAKE_COMMAND) -P CMakeFiles/gmock.dir/cmake_clean.cmake
+.PHONY : tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/clean
 
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mohamedsayed/CLionProjects/railsRoad /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend:
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mohamedsayed/CLionProjects/railsRoad /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/depend
 

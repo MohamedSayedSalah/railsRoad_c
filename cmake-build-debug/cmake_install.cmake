@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/cmake_install.cmake")
+  include("/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

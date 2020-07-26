@@ -49,26 +49,26 @@ CMAKE_SOURCE_DIR = /Users/mohamedsayed/CLionProjects/railsRoad
 CMAKE_BINARY_DIR = /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug
 
 # Include any dependencies generated for this target.
-include Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend.make
+include tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend.make
 
 # Include the progress variables for this target.
-include Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make
+include tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
+include tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
 
-Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
-Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../Tests/lib/googletest/googletest/src/gtest_main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest/src/gtest_main.cc
+tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/flags.make
+tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o: ../tests/lib/googletest/googletest/src/gtest_main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o"
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/src/gtest_main.cc
 
-Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
+tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest_main.dir/src/gtest_main.cc.i"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/src/gtest_main.cc > CMakeFiles/gtest_main.dir/src/gtest_main.cc.i
 
-Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
+tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest_main.dir/src/gtest_main.cc.s"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest && /Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/src/gtest_main.cc -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.s
 
 # Object files for target gtest_main
 gtest_main_OBJECTS = \
@@ -77,23 +77,23 @@ gtest_main_OBJECTS = \
 # External object files for target gtest_main
 gtest_main_EXTERNAL_OBJECTS =
 
-lib/libgtest_maind.a: Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
-lib/libgtest_maind.a: Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make
-lib/libgtest_maind.a: Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt
+lib/libgtest_maind.a: tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+lib/libgtest_maind.a: tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make
+lib/libgtest_maind.a: tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ../../../../lib/libgtest_maind.a"
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean_target.cmake
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gtest_main.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_maind.a
+tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build: lib/libgtest_maind.a
 
-.PHONY : Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build
+.PHONY : tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build
 
-Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
-.PHONY : Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/clean
+tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/clean:
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest && $(CMAKE_COMMAND) -P CMakeFiles/gtest_main.dir/cmake_clean.cmake
+.PHONY : tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/clean
 
-Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mohamedsayed/CLionProjects/railsRoad /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend
+tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend:
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/mohamedsayed/CLionProjects/railsRoad /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/depend
 

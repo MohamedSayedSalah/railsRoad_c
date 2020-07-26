@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest
+# Install script for directory: /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock/cmake_install.cmake")
+  include("/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/cmake_install.cmake")
 
 endif()
 

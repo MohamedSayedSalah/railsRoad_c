@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock/CMakeFiles/progress.marks
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/googlemock/all
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/CMakeFiles/progress.marks
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/googlemock/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/googlemock/clean
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/googlemock/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,12 +143,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/googlemock/preinstall
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/googlemock/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/googlemock/preinstall
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/googlemock/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
@@ -157,33 +157,33 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule
-.PHONY : Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule
+tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule:
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule
+.PHONY : tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
-gmock: Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule
+gmock: tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/rule
 
 .PHONY : gmock
 
 # fast build rule for target.
 gmock/fast:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 # Convenience name for target.
-Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
-.PHONY : Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
+tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule:
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
+.PHONY : tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
-gmock_main: Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
+gmock_main: tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/rule
 
 .PHONY : gmock_main
 
 # fast build rule for target.
 gmock_main/fast:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 src/gmock-all.o: src/gmock-all.cc.o
@@ -192,7 +192,7 @@ src/gmock-all.o: src/gmock-all.cc.o
 
 # target to build an object file
 src/gmock-all.cc.o:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.o
 .PHONY : src/gmock-all.cc.o
 
 src/gmock-all.i: src/gmock-all.cc.i
@@ -201,7 +201,7 @@ src/gmock-all.i: src/gmock-all.cc.i
 
 # target to preprocess a source file
 src/gmock-all.cc.i:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i
 .PHONY : src/gmock-all.cc.i
 
 src/gmock-all.s: src/gmock-all.cc.s
@@ -210,7 +210,7 @@ src/gmock-all.s: src/gmock-all.cc.s
 
 # target to generate assembly for a file
 src/gmock-all.cc.s:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s
 .PHONY : src/gmock-all.cc.s
 
 src/gmock_main.o: src/gmock_main.cc.o
@@ -219,7 +219,7 @@ src/gmock_main.o: src/gmock_main.cc.o
 
 # target to build an object file
 src/gmock_main.cc.o:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.o
 .PHONY : src/gmock_main.cc.o
 
 src/gmock_main.i: src/gmock_main.cc.i
@@ -228,7 +228,7 @@ src/gmock_main.i: src/gmock_main.cc.i
 
 # target to preprocess a source file
 src/gmock_main.cc.i:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.i
 .PHONY : src/gmock_main.cc.i
 
 src/gmock_main.s: src/gmock_main.cc.s
@@ -237,7 +237,7 @@ src/gmock_main.s: src/gmock_main.cc.s
 
 # target to generate assembly for a file
 src/gmock_main.cc.s:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/src/gmock_main.cc.s
 .PHONY : src/gmock_main.cc.s
 
 # Help Target

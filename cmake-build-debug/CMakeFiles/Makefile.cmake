@@ -46,18 +46,18 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/ProcessorCount.cmake"
   "/Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.15/Modules/WriteBasicConfigVersionFile.cmake"
   "../CMakeLists.txt"
-  "../Tests/lib/googletest/CMakeLists.txt"
-  "../Tests/lib/googletest/googlemock/CMakeLists.txt"
-  "../Tests/lib/googletest/googlemock/cmake/gmock.pc.in"
-  "../Tests/lib/googletest/googlemock/cmake/gmock_main.pc.in"
-  "../Tests/lib/googletest/googletest/CMakeLists.txt"
-  "../Tests/lib/googletest/googletest/cmake/Config.cmake.in"
-  "../Tests/lib/googletest/googletest/cmake/gtest.pc.in"
-  "../Tests/lib/googletest/googletest/cmake/gtest_main.pc.in"
-  "../Tests/lib/googletest/googletest/cmake/internal_utils.cmake"
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../tests/lib/googletest/CMakeLists.txt"
+  "../tests/lib/googletest/googlemock/CMakeLists.txt"
+  "../tests/lib/googletest/googlemock/cmake/gmock.pc.in"
+  "../tests/lib/googletest/googlemock/cmake/gmock_main.pc.in"
+  "../tests/lib/googletest/googletest/CMakeLists.txt"
+  "../tests/lib/googletest/googletest/cmake/Config.cmake.in"
+  "../tests/lib/googletest/googletest/cmake/gtest.pc.in"
+  "../tests/lib/googletest/googletest/cmake/gtest_main.pc.in"
+  "../tests/lib/googletest/googletest/cmake/internal_utils.cmake"
   )
 
 # The corresponding makefile is:
@@ -69,16 +69,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Tests/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Tests/lib/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "Tests/lib/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/lib/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "tests/lib/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/railsRoad.dir/DependInfo.cmake"
-  "Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
-  "Tests/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "tests/lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
   )

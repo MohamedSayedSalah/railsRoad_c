@@ -1,5 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o"
   "CMakeFiles/railsRoad.dir/src/FileParser/FileParser.cpp.o"
   "CMakeFiles/railsRoad.dir/src/Graph/Edge/Edge.cpp.o"
   "CMakeFiles/railsRoad.dir/src/Graph/Graph.cpp.o"
@@ -11,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.o"
   "CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.o"
   "CMakeFiles/railsRoad.dir/src/main.cpp.o"
+  "CMakeFiles/railsRoad.dir/tests/RailsRoadTests.cpp.o"
   "railsRoad"
   "railsRoad.pdb"
 )

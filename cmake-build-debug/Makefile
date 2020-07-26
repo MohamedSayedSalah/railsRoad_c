@@ -179,7 +179,7 @@ gmock: cmake_check_build_system
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
+	$(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 #=============================================================================
@@ -192,7 +192,7 @@ gmock_main: cmake_check_build_system
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) -f Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make Tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
+	$(MAKE) -f tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build.make tests/lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 #=============================================================================
@@ -205,7 +205,7 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) -f Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make Tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) -f tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build.make tests/lib/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 #=============================================================================
@@ -218,35 +218,8 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) -f Tests/lib/googletest/googletest/CMakeFiles/gtest.dir/build.make Tests/lib/googletest/googletest/CMakeFiles/gtest.dir/build
+	$(MAKE) -f tests/lib/googletest/googletest/CMakeFiles/gtest.dir/build.make tests/lib/googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
-
-Tests/RailsRoadTests.o: Tests/RailsRoadTests.cpp.o
-
-.PHONY : Tests/RailsRoadTests.o
-
-# target to build an object file
-Tests/RailsRoadTests.cpp.o:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o
-.PHONY : Tests/RailsRoadTests.cpp.o
-
-Tests/RailsRoadTests.i: Tests/RailsRoadTests.cpp.i
-
-.PHONY : Tests/RailsRoadTests.i
-
-# target to preprocess a source file
-Tests/RailsRoadTests.cpp.i:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.i
-.PHONY : Tests/RailsRoadTests.cpp.i
-
-Tests/RailsRoadTests.s: Tests/RailsRoadTests.cpp.s
-
-.PHONY : Tests/RailsRoadTests.s
-
-# target to generate assembly for a file
-Tests/RailsRoadTests.cpp.s:
-	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.s
-.PHONY : Tests/RailsRoadTests.cpp.s
 
 src/FileParser/FileParser.o: src/FileParser/FileParser.cpp.o
 
@@ -545,6 +518,33 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+tests/RailsRoadTests.o: tests/RailsRoadTests.cpp.o
+
+.PHONY : tests/RailsRoadTests.o
+
+# target to build an object file
+tests/RailsRoadTests.cpp.o:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/tests/RailsRoadTests.cpp.o
+.PHONY : tests/RailsRoadTests.cpp.o
+
+tests/RailsRoadTests.i: tests/RailsRoadTests.cpp.i
+
+.PHONY : tests/RailsRoadTests.i
+
+# target to preprocess a source file
+tests/RailsRoadTests.cpp.i:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/tests/RailsRoadTests.cpp.i
+.PHONY : tests/RailsRoadTests.cpp.i
+
+tests/RailsRoadTests.s: tests/RailsRoadTests.cpp.s
+
+.PHONY : tests/RailsRoadTests.s
+
+# target to generate assembly for a file
+tests/RailsRoadTests.cpp.s:
+	$(MAKE) -f CMakeFiles/railsRoad.dir/build.make CMakeFiles/railsRoad.dir/tests/RailsRoadTests.cpp.s
+.PHONY : tests/RailsRoadTests.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -562,9 +562,6 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest_main"
 	@echo "... gtest"
-	@echo "... Tests/RailsRoadTests.o"
-	@echo "... Tests/RailsRoadTests.i"
-	@echo "... Tests/RailsRoadTests.s"
 	@echo "... src/FileParser/FileParser.o"
 	@echo "... src/FileParser/FileParser.i"
 	@echo "... src/FileParser/FileParser.s"
@@ -598,6 +595,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... tests/RailsRoadTests.o"
+	@echo "... tests/RailsRoadTests.i"
+	@echo "... tests/RailsRoadTests.s"
 .PHONY : help
 
 

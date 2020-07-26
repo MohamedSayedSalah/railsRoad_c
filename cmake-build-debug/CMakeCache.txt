@@ -289,13 +289,13 @@ PYTHON_EXECUTABLE:FILEPATH=/usr/bin/python
 ProcessorCount_cmd_sysctl:FILEPATH=/usr/sbin/sysctl
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googlemock
+gmock_BINARY_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock
+gmock_SOURCE_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
@@ -304,16 +304,16 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest
+googletest-distribution_BINARY_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest
+googletest-distribution_SOURCE_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest
+gtest_BINARY_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest
+gtest_SOURCE_DIR:STATIC=/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -526,7 +526,7 @@ PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 ProcessorCount_cmd_sysctl-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=/usr/local
-generated_dir:INTERNAL=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/googletest/generated
+generated_dir:INTERNAL=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

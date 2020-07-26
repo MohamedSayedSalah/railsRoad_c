@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -Wall -Wshadow -Werror -Wconversion -DGTEST_HAS_PTHREAD=1 -fexc
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock/include -isystem /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googlemock -isystem /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest/include -isystem /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest 
+CXX_INCLUDES = -isystem /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/include -isystem /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock -isystem /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include -isystem /Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest 
 

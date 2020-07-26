@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Tests/lib/googletest/CMakeFiles/progress.marks
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/all
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/CMakeFiles/progress.marks
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/clean
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,12 +143,12 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/preinstall
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 Tests/lib/googletest/preinstall
+	cd /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug && $(MAKE) -f CMakeFiles/Makefile2 tests/lib/googletest/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
