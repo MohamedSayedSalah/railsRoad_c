@@ -24,7 +24,7 @@ namespace {
 
         }
         void SetUp( ) {
-            initializer.setFilePath("./test1") ;
+            initializer.setFilePath("../test1") ;
 
         }
     };
@@ -36,12 +36,11 @@ namespace {
         Initializer initializer ;
     public :
         LengthyRoad() : Test() {
-            initializer.setFilePath("./test2");
+            initializer.setFilePath("../test2");
         }
     };
 
 }
-
 
 //
 TEST_F(TenCities , up_to_10_cities){
