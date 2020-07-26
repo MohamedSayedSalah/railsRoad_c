@@ -13,7 +13,7 @@ using namespace std;
 
 int main(int argc  , char* argv[]) {
     Initializer *initializer = new Initializer();
-    initializer->setFilePath("./input") ;
+    initializer->setFilePath("../input") ;
     initializer->solve();
     delete initializer ;
 
