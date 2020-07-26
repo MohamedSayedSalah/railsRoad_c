@@ -1,7 +1,0 @@
-/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/mohamedsayed/CLionProjects/railsRoad
-CMake Error at CMakeLists.txt:10 (add_subdirectory):
-  add_subdirectory given source "tst" which is not an existing directory.
-
-
--- Configuring incomplete, errors occurred!
-See also "/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles/CMakeOutput.log".
