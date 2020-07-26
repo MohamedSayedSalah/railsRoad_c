@@ -18,7 +18,6 @@ public :
     Solver(){} ;
     Solver(const char * fieldName) ;
     virtual void  solve() {} ;
-    virtual  ~Solver()= default;
 };
 
 
