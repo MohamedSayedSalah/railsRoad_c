@@ -27,8 +27,6 @@ namespace {
             initializer.setFilePath("../Tests/test1") ;
 
         }
-
-
     };
 
 
