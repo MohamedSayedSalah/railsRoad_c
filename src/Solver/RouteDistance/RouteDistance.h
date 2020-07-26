@@ -4,15 +4,15 @@
 
 #ifndef RAILSROAD_ROUTEDISTANCE_H
 #define RAILSROAD_ROUTEDISTANCE_H
+#include "../Solver.h"
+#include <string>
+class RouteDistance : public Solver{
+   string rules[5]  = {"ABC", "AD", "ADC", "AEBCD", "AED"} ;
 
-class RouteDistance {
-    static  string rules []  ;
-    RouteDistance(){} ;
 public:
 
-     static int trip(string trip);
-     static void solveFromOneToFive() ;
-
+     long long trip(string trip);
+     void solve() ;
 };
 
 #endif //RAILSROAD_ROUTEDISTANCE_H

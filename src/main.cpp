@@ -9,9 +9,18 @@
 using namespace std;
 
 #include "./Util/Initializer.cpp"
-int main() {
+#include <gtest/gtest.h>
 
-    Initializer::initialize() ;
+
+int main(int argc  , char* argv[]) {
+
+    Initializer *initializer = new Initializer();
+    initializer->setFilePath("../input") ;
+    initializer->solve();
+    delete initializer ;
+
+    testing::InitGoogleTest() ;
+    RUN_ALL_TESTS();
 
     return 0;
 }

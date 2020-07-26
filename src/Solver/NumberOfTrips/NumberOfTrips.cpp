@@ -11,7 +11,7 @@ int NumberOfTrips::dfs(char start, char end , int stops, bool exact  , char curr
     if (current == end && ((stops == 0 && exact) || (stops>=0 && !exact)) ) return 1  ;
     if (current=='*') current = start ;// default value
 
-    vector<Edge*> *edges = Graph::getInstance()->getAdjList()[current-'A']->getEdges() ;
+    vector<Edge*> *edges = graph->getAdjList()[current-'A']->getEdges() ;
     int nTrips = 0 ;
     for (auto edge : *edges){
         nTrips += dfs(start , end , stops - 1 , exact,edge->getTo()->getId() ) ;
@@ -19,7 +19,7 @@ int NumberOfTrips::dfs(char start, char end , int stops, bool exact  , char curr
     return nTrips;
 }
 
-void NumberOfTrips::solveFromSixToSeven() {
+void NumberOfTrips::solve() {
     cout <<"Output #6: "<< NumberOfTrips::dfs('C' , 'C' , 3, false ,'*') << endl;
     cout << "Output #7: "<< NumberOfTrips::dfs('A' , 'C' , 4, true ,'*' ) << endl;
 }

@@ -4,14 +4,13 @@
 
 #ifndef RAILSROAD_NUMBEROFTRIPS_H
 #define RAILSROAD_NUMBEROFTRIPS_H
+#include "../Solver.h"
 
-
-class NumberOfTrips {
-    NumberOfTrips(){} ;
+class NumberOfTrips: public Solver {
 
 public:
-    static int dfs(char start, char end, int stops, bool exact, char current) ;
-    static void solveFromSixToSeven();
+     int dfs(char start, char end, int stops, bool exact, char current) ;
+     void solve();
 };
 
 

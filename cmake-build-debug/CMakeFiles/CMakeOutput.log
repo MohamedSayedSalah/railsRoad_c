@@ -292,3 +292,46 @@ Parsed CXX implicit link information from above output:
   implicit fwks: [/Library/Frameworks;/System/Library/Frameworks]
 
 
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_7ecbb/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_7ecbb.dir/build.make CMakeFiles/cmTC_7ecbb.dir/build
+Building C object CMakeFiles/cmTC_7ecbb.dir/CheckIncludeFile.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc    -o CMakeFiles/cmTC_7ecbb.dir/CheckIncludeFile.c.o   -c /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_7ecbb
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ecbb.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc   -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_7ecbb.dir/CheckIncludeFile.c.o  -o cmTC_7ecbb 
+
+
+
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD succeeded with the following output:
+Change Dir: /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_798ba/fast && /Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_798ba.dir/build.make CMakeFiles/cmTC_798ba.dir/build
+Building C object CMakeFiles/cmTC_798ba.dir/src.c.o
+/Library/Developer/CommandLineTools/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_798ba.dir/src.c.o   -c /Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_798ba
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E cmake_link_script CMakeFiles/cmTC_798ba.dir/link.txt --verbose=1
+/Library/Developer/CommandLineTools/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/cmTC_798ba.dir/src.c.o  -o cmTC_798ba 
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+

@@ -5,13 +5,12 @@
 #ifndef RAILSROAD_SHORTESTPATH_H
 #define RAILSROAD_SHORTESTPATH_H
 
+#include "../Solver.h"
+class ShortestPath : public Solver {
 
-class ShortestPath {
-
-    ShortestPath() ;
 public:
-     static int dijkstra(char s , char d);
-     static void solveFromEightToNine() ;
+      int dijkstra(char s , char d);
+      void solve() ;
 
 };
 

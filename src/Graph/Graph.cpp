@@ -40,24 +40,12 @@ void Graph::fillAdjList(string direction) {
     adj_list[(routeParser.getFrom() - 'A')]->getEdges()->push_back(edge) ;
 }
 
-Graph *Graph::getInstance() {
-    if (!graph)
-        graph = new Graph();
-    return graph;
-};
+
 
  vector<Vertex*> Graph::getAdjList()  {
     return adj_list;
 }
 
-
-
-Graph::~Graph() {
-    delete graph;
-}
-
-// static data member.  The pointer is being allocated
-Graph *Graph::graph = 0;
 
 int *Graph::getAdjMatrix() {
     int *ptr  = &adj_matrix[0][0] ;

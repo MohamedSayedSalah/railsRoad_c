@@ -187,6 +187,32 @@ CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedsayed/CLionProjects/railsRoad/src/Util/RouteParser.cpp -o CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.s
 
+CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o: CMakeFiles/railsRoad.dir/flags.make
+CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o: ../Tests/RailsRoadTests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o -c /Users/mohamedsayed/CLionProjects/railsRoad/Tests/RailsRoadTests.cpp
+
+CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedsayed/CLionProjects/railsRoad/Tests/RailsRoadTests.cpp > CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.i
+
+CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedsayed/CLionProjects/railsRoad/Tests/RailsRoadTests.cpp -o CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.s
+
+CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.o: CMakeFiles/railsRoad.dir/flags.make
+CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.o: ../src/Solver/Solver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.o -c /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.cpp
+
+CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.cpp > CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.i
+
+CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.cpp -o CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.s
+
 # Object files for target railsRoad
 railsRoad_OBJECTS = \
 "CMakeFiles/railsRoad.dir/src/main.cpp.o" \
@@ -198,7 +224,9 @@ railsRoad_OBJECTS = \
 "CMakeFiles/railsRoad.dir/src/Solver/NumberOfTrips/NumberOfTrips.cpp.o" \
 "CMakeFiles/railsRoad.dir/src/Solver/DifferentTrips/DifferentTrips.cpp.o" \
 "CMakeFiles/railsRoad.dir/src/Solver/ShortestPath/ShortestPath.cpp.o" \
-"CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.o"
+"CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.o" \
+"CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o" \
+"CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.o"
 
 # External object files for target railsRoad
 railsRoad_EXTERNAL_OBJECTS =
@@ -213,9 +241,14 @@ railsRoad: CMakeFiles/railsRoad.dir/src/Solver/NumberOfTrips/NumberOfTrips.cpp.o
 railsRoad: CMakeFiles/railsRoad.dir/src/Solver/DifferentTrips/DifferentTrips.cpp.o
 railsRoad: CMakeFiles/railsRoad.dir/src/Solver/ShortestPath/ShortestPath.cpp.o
 railsRoad: CMakeFiles/railsRoad.dir/src/Util/RouteParser.cpp.o
+railsRoad: CMakeFiles/railsRoad.dir/Tests/RailsRoadTests.cpp.o
+railsRoad: CMakeFiles/railsRoad.dir/src/Solver/Solver.cpp.o
 railsRoad: CMakeFiles/railsRoad.dir/build.make
+railsRoad: lib/libgtestd.a
+railsRoad: lib/libgtest_maind.a
+railsRoad: lib/libgtestd.a
 railsRoad: CMakeFiles/railsRoad.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable railsRoad"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable railsRoad"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/railsRoad.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

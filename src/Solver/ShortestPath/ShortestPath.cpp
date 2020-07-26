@@ -4,7 +4,6 @@
 
 #include <cstring>
 #include "ShortestPath.h"
-#include "../../Graph/Graph.h"
 #include <iostream>
 
 int ShortestPath::dijkstra(char s, char d) { // V * V
@@ -29,7 +28,7 @@ int ShortestPath::dijkstra(char s, char d) { // V * V
         visited[idx] = true;
         for (int i = 0; i < 26; i++) {
             if (idx == i ) continue ;
-            int cellValue = *(Graph::getInstance()->getAdjMatrix() + ((idx * 26) + i));
+            int cellValue = *(graph->getAdjMatrix() + ((idx * 26) + i));
             if (!cellValue) {
                 cellValue = 1 << 30;
             }
@@ -42,7 +41,7 @@ int ShortestPath::dijkstra(char s, char d) { // V * V
     return dis[d - 'A'];
 }
 
-void ShortestPath::solveFromEightToNine() {
+void ShortestPath::solve() {
  cout <<"Output #8: " <<  dijkstra('A', 'C') << endl;
  cout <<"Output #9: " << dijkstra('B', 'B') << endl;
 

@@ -7,13 +7,13 @@
 
 
 #include "../../Graph/Vertex/Vertex.h"
+#include "../Solver.h"
 
-class DifferentTrips {
+class DifferentTrips : public Solver {
 
-    DifferentTrips(){} ;
 public:
-    static int dfs (char s , char e, int distance ) ;
-    static void solveTen() ;
+      int dfs (char s , char e, int distance ) ;
+      void solve() ;
 };
 
 

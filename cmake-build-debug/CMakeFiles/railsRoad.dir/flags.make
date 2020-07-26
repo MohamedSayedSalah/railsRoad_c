@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=gnu++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include -I/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/include -isystem /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest/include -isystem /Users/mohamedsayed/CLionProjects/railsRoad/Tests/lib/googletest/googletest 
 

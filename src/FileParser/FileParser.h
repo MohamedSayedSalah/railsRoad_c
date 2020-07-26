@@ -14,8 +14,8 @@ class FileParser {
     FILE *fptr;
 
 public :
-    void file_reader();
-    void parse_file_content(char * input) ;
+    void file_reader(const char * fileName, Graph * graph);
+    void parse_file_content(char * input, Graph * graph) ;
 };
 
 

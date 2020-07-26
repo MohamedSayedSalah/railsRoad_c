@@ -13,24 +13,16 @@
 using namespace std;
 class Graph {
 private:
-    static Graph* graph ;
     vector< Vertex* >  adj_list  ;
     int adj_matrix [26][26];
-    Graph();
-
-
-
-
-
 
 public:
+    Graph() ;
     void fill_matrix (string direction) ;
     void fillAdjList(string direction) ;
-    static Graph* getInstance( );
     vector<Vertex*> getAdjList();
     int *getAdjMatrix() ;
     ~Graph();
-
 };
 
 

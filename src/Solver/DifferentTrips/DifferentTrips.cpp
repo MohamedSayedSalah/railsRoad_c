@@ -20,7 +20,7 @@ int DifferentTrips::dfs(char current, char e, int distance) {
     if (ret != -1){
         return ret;
     }
-    Vertex *vertex = Graph::getInstance()->getAdjList()[current - 'A'];
+    Vertex *vertex = graph->getAdjList()[current - 'A'];
     vector<Edge *> *edges = vertex->getEdges();
 
 
@@ -33,7 +33,7 @@ int DifferentTrips::dfs(char current, char e, int distance) {
     return ret = count;
 }
 
-void DifferentTrips::solveTen() {
+void DifferentTrips::solve() {
     memset(mem , -1 , sizeof mem) ;
     cout << "Output #10: "<< dfs('C' ,'C'  , 0) << endl ;
 }

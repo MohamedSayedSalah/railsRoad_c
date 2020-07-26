@@ -9,8 +9,8 @@
 using namespace std;
 
 
-void FileParser::file_reader() {
-    if ((fptr = fopen("../input", "r")) == NULL) {
+void FileParser::file_reader(const char *filename, Graph * graph) {
+    if ((fptr = fopen(filename, "r")) == NULL) {
         printf("Error! opening file");
         // Program exits if file pointer returns NULL.
         exit(1);
@@ -18,18 +18,18 @@ void FileParser::file_reader() {
 
 //     reads text until [*] delimiter
     fscanf(fptr, "%[^*]", c);
-    parse_file_content(c);
+    parse_file_content(c, graph);
 
     fclose(fptr);
 
 }
 
-void FileParser::parse_file_content(char *input) {
+void FileParser::parse_file_content(char *input, Graph * graph) {
     string c;
     stringstream ss;
     ss << input;
     while (ss >> c) {
-        Graph::getInstance()->fill_matrix(c);
-        Graph::getInstance()->fillAdjList(c);
+        graph->fill_matrix(c);
+        graph->fillAdjList(c);
     }
 }
