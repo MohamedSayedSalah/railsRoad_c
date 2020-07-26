@@ -23,7 +23,7 @@ long long RouteDistance::trip(string trip) {
     return steps > 0 ? steps : 0;
 }
 
-void RouteDistance::solve() {
+void RouteDistance::solve()  {
     for (int i = 0 ; i < 5  ; i ++){
         long long distance = trip(rules[i])  ;
         distance ?  cout << "Output #" << i + 1 <<": " << distance << endl :  cout << "Output #" << i + 1 <<": " << "NO SUCH ROUTE" << endl  ;

@@ -348,15 +348,47 @@ vector
 vector
 -
 
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.cpp
+DifferentTrips.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h
+../../Graph/Vertex/Vertex.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h
+../../Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h
+queue
+-
+iostream
+-
+
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h
 ../../Graph/Vertex/Vertex.h
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h
 ../Solver.h
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.h
 
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.cpp
+NumberOfTrips.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.h
+../../Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h
+iostream
+-
+
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.h
 ../Solver.h
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.h
+
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.cpp
+vector
+-
+string
+-
+../../Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h
+RouteDistance.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.h
+iostream
+-
 
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.h
 ../Solver.h
@@ -364,8 +396,20 @@ vector
 string
 -
 
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.cpp
+cstring
+-
+ShortestPath.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.h
+iostream
+-
+
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.h
 ../Solver.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.h
+
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.cpp
+Solver.h
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.h
 
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.h
@@ -387,6 +431,26 @@ string
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.h
 ../Solver/DifferentTrips/DifferentTrips.h
 /Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h
+
+/Users/mohamedsayed/CLionProjects/railsRoad/src/main.cpp
+./Graph/Graph.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h
+./FileParser/FileParser.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/FileParser/FileParser.h
+Solver/RouteDistance/RouteDistance.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.h
+Solver/NumberOfTrips/NumberOfTrips.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.h
+Solver/DifferentTrips/DifferentTrips.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h
+Solver/ShortestPath/ShortestPath.h
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.h
+iostream
+-
+./Util/Initializer.cpp
+/Users/mohamedsayed/CLionProjects/railsRoad/src/Util/Initializer.cpp
+gtest/gtest.h
+-
 
 /Users/mohamedsayed/CLionProjects/railsRoad/tests/RailsRoadTests.cpp
 gtest/gtest.h

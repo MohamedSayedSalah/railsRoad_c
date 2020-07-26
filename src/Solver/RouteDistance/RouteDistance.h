@@ -12,7 +12,7 @@ class RouteDistance : public Solver{
 public:
 
      long long trip(string trip);
-     void solve() ;
+     void solve()  ;
 };
 
 #endif //RAILSROAD_ROUTEDISTANCE_H
