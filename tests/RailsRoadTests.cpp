@@ -24,7 +24,7 @@ namespace {
 
         }
         void SetUp( ) {
-            initializer.setFilePath("../Tests/test1") ;
+            initializer.setFilePath("./test1") ;
 
         }
     };
@@ -36,7 +36,7 @@ namespace {
         Initializer initializer ;
     public :
         LengthyRoad() : Test() {
-            initializer.setFilePath("../Tests/test2");
+            initializer.setFilePath("./test2");
         }
     };
 
