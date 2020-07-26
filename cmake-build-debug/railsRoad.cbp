@@ -5,7 +5,7 @@
 		<Option title="railsRoad"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\tests\;CMake Files\tests\lib\;CMake Files\tests\lib\googletest\;CMake Files\tests\lib\googletest\googlemock\;CMake Files\tests\lib\googletest\googlemock\cmake\;CMake Files\tests\lib\googletest\googletest\;CMake Files\tests\lib\googletest\googletest\cmake\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\lib\;CMake Files\lib\googletest\;CMake Files\lib\googletest\googlemock\;CMake Files\lib\googletest\googlemock\cmake\;CMake Files\lib\googletest\googletest\;CMake Files\lib\googletest\googletest\cmake\;CMake Files\src\;CMake Files\tests\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug"/>
@@ -57,58 +57,6 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="railsRoad">
-				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/railsRoad" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 railsRoad"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="railsRoad/fast">
-				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/railsRoad" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug"/>
-				<Option object_output="./"/>
-				<Option type="1"/>
-				<Option compiler="gcc"/>
-				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
-				</Compiler>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 railsRoad/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
 			<Target title="rebuild_cache">
 				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug"/>
 				<Option type="4"/>
@@ -129,17 +77,14 @@
 					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="gmock">
-				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock"/>
+			<Target title="railsRoad_lib">
+				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/librailsRoad_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -149,23 +94,170 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 railsRoad_lib"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="railsRoad_lib/fast">
+				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/librailsRoad_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 railsRoad_lib/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="railsRoad_run">
+				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/railsRoad_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 railsRoad_run"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="railsRoad_run/fast">
+				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/railsRoad_run" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 railsRoad_run/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="railsRoad_tests">
+				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/railsRoad_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 railsRoad_tests"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="railsRoad_tests/fast">
+				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/railsRoad_tests" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 railsRoad_tests/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gmock">
+				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
+					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock/fast">
 				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgmockd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -175,23 +267,24 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main">
 				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -201,23 +294,24 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gmock_main/fast">
 				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgmock_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -227,21 +321,22 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 gmock_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googlemock/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main">
 				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -251,21 +346,22 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest_main/fast">
 				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgtest_maind.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -275,21 +371,22 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest_main/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest">
 				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -299,21 +396,22 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="gtest/fast">
 				<Option output="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/libgtestd.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest"/>
+				<Option working_dir="/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/include"/>
-					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/src"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/include"/>
+					<Add directory="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/10.0.1/include"/>
@@ -323,117 +421,190 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/tests/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 gtest/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/mohamedsayed/CLionProjects/railsRoad/cmake-build-debug/lib/googletest/googletest/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/FileParser/FileParser.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/FileParser/FileParser.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Edge/Edge.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Edge/Edge.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.h">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Util/RouteParser.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/main.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/RailsRoadTests.cpp">
-			<Option target="railsRoad"/>
-		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/src/gmock-all.cc">
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/src/gmock-all.cc">
 			<Option target="gmock"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/src/gmock_main.cc">
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/src/gmock_main.cc">
 			<Option target="gmock_main"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/src/gtest-all.cc">
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/src/gtest-all.cc">
 			<Option target="gtest"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/src/gtest_main.cc">
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/src/gtest_main.cc">
 			<Option target="gtest_main"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/FileParser">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/FileParser/FileParser.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/FileParser/FileParser.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Edge">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Edge/Edge.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Edge/Edge.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Graph.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Graph/Vertex/Vertex.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/DifferentTrips/DifferentTrips.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/NumberOfTrips/NumberOfTrips.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/RouteDistance/RouteDistance.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/ShortestPath/ShortestPath.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Solver/Solver.h">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Util">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Util/Initializer.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/Util/RouteParser.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/main.cpp">
+			<Option target="railsRoad_lib"/>
+			<Option target="railsRoad_run"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/RailsRoadTests.cpp">
+			<Option target="railsRoad_tests"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/main.cpp">
+			<Option target="railsRoad_tests"/>
 		</Unit>
 		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googlemock\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\googlemock\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/cmake/gmock.pc.in">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googlemock\cmake\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/cmake/gmock.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googlemock/cmake/gmock_main.pc.in">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googlemock\cmake\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googlemock/cmake/gmock_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googlemock\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/CMakeLists.txt">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googletest\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/cmake/Config.cmake.in">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googletest\cmake\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/cmake/gtest.pc.in">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googletest\cmake\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/cmake/gtest.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/cmake/gtest_main.pc.in">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googletest\cmake\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/cmake/gtest_main.pc.in">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
 		</Unit>
-		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/lib/googletest/googletest/cmake/internal_utils.cmake">
-			<Option virtualFolder="CMake Files\tests\lib\googletest\googletest\cmake\"/>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/lib/googletest/googletest/cmake/internal_utils.cmake">
+			<Option virtualFolder="CMake Files\lib\googletest\googletest\cmake\"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+		<Unit filename="/Users/mohamedsayed/CLionProjects/railsRoad/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
