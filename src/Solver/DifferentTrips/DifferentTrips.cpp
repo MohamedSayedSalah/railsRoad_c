@@ -7,16 +7,16 @@
 #include "../../Graph/Graph.h"
 #include <queue>
 #include <iostream>
-int mem[26][30];
 
 
 
-int DifferentTrips::dfs(char current, char e, int distance) {
-    if (distance >= 30) {
+
+int DifferentTrips::dfs(char current, char e, int distance, int soFar = 0) {
+    if (soFar >= distance) {
         return 0;
     }
 
-    int &ret = mem[current - 'A'][distance];
+    int &ret = mem[current - 'A'][soFar];
     if (ret != -1){
         return ret;
     }
@@ -24,18 +24,21 @@ int DifferentTrips::dfs(char current, char e, int distance) {
     vector<Edge *> *edges = vertex->getEdges();
 
 
-    int count = (current == e && distance < 30 && distance ? 1 : 0);
+    int count = (current == e && soFar < distance && soFar ? 1 : 0);
 
     for (auto edge : *edges) {
-        count += dfs(edge->getTo()->getId(), e, edge->getWeight() + distance);
+        count += dfs(edge->getTo()->getId(), e, distance,edge->getWeight() + soFar);
     }
 
     return ret = count;
 }
 
 void DifferentTrips::solve() {
+    cout << "Output #10: "<< dfs('C' ,'C'  , 30,0) << endl ;
+}
+
+DifferentTrips::DifferentTrips() {
     memset(mem , -1 , sizeof mem) ;
-    cout << "Output #10: "<< dfs('C' ,'C'  , 0) << endl ;
 }
 
 

@@ -65,4 +65,24 @@ TEST_F(LengthyRoad , exact_ntrips){
     ASSERT_EQ( initializer.getNumberOfTrips().dfs('A', 'D', 3, true, '*'),2 ) ;
 };
 
+TEST_F(TenCities , shortest_trip_from_A_E){
+    ASSERT_EQ( initializer.getShortestPath().dijkstra('A', 'E'),145 ) ;
+};
+
+TEST_F(TenCities , shortest_trip_from_A_C){
+    ASSERT_EQ( initializer.getShortestPath().dijkstra('A', 'C'),155 ) ;
+};
+
+TEST_F(TenCities , trip_combinations_from_A_C){
+    ASSERT_EQ( initializer.getDifferentTrips().dfs('A', 'C',500,0),7 ) ;
+};
+
+TEST_F(TenCities , trip_combinations_from_A_E){
+    ASSERT_EQ( initializer.getDifferentTrips().dfs('A', 'E',500,0),5 ) ;
+};
+
+
+
+
+
 
