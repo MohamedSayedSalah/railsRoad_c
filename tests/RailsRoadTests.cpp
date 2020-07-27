@@ -87,7 +87,7 @@ TEST_F(LengthyRoad , exact_ntrips){
  * calculate shortest path from A to E
  */
 TEST_F(TenCities , shortest_trip_from_A_E){
-    ASSERT_EQ( initializer.getShortestPath().dijkstra('A', 'E'),145 ) ;
+    ASSERT_EQ( initializer.getShortestPath().dijkstraWithPriorityQueue('A', 'E'),145 ) ;
 };
 /**
  * calculate shortest path from A to C

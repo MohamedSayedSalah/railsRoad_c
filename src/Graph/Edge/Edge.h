@@ -10,13 +10,16 @@
 class Vertex ;
 class Edge {
     Vertex *to ;
+    Vertex *from ;
     int weight ;
 public:
     Edge() ;
-    Edge(Vertex *vertex , int w) ;
+    Edge(Vertex *from, Vertex *to  , int w) ;
     int getWeight() ;
+    void setWeight(int w) ;
     Vertex *getTo() ;
-
+    Vertex *getFrom();
+    bool operator < (const Edge & e ) const ;
 };
 
 

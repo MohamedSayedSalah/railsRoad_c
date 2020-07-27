@@ -36,7 +36,7 @@ void Graph::fillAdjList(string direction) {
         adj_list[(routeParser.getTo() - 'A')] = createNewVertex(routeParser.getTo()) ;
     }
 
-    Edge *edge = new Edge( adj_list[(routeParser.getTo() - 'A')] , routeParser.getDistance() );
+    Edge *edge = new Edge( adj_list[(routeParser.getFrom() - 'A')],adj_list[(routeParser.getTo() - 'A')] , routeParser.getDistance() );
     adj_list[(routeParser.getFrom() - 'A')]->getEdges()->push_back(edge) ;
 }
 

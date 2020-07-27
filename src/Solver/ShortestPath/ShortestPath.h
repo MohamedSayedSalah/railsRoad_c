@@ -10,6 +10,7 @@ class ShortestPath : public Solver {
 
 public:
       int dijkstra(char s , char d);
+      int dijkstraWithPriorityQueue(char s , char d);
       void solve() ;
 
 };

@@ -33,7 +33,7 @@ public:
         return to;
     }
 
-    long long int getDistance() const {
+    long long  getDistance() const {
         return distance;
     }
 
