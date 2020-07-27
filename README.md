@@ -17,7 +17,7 @@ this instructions only work for (mac/linux) users . for widnows you have to use 
 - build the project using cMake ` cmake .. -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" `
 - `make all`
 - after that you will have 2 executables in the build folder one for tests and one for the main program 
-- to run the main program type `./main/railsRoad_run`
+- to run the main program type `./src/railsRoad_run`
 - to run tests type `./tests/railsRoad_tests`
 
 ## SOLUTIONS
