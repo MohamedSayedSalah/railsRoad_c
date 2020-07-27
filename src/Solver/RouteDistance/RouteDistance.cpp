@@ -11,8 +11,15 @@
 
 using namespace std;
 
-// string RouteDistance::rules[5] = {"ABC", "AD", "ADC", "AEBCD", "AED"} ;
-
+/**
+ *
+ * @param trip  trip  from rules array like ABC
+ * @return number of steps until you reach your destination
+ *
+ * this solution is using adj_matrix to calculate directly the steps from to -> destination in O(1) constant time factor
+ *  ABC will be  =  adj_matrix[0][1] + adj_matrix[1][2]
+ *
+ */
 long long RouteDistance::trip(string trip) {
     int n = trip.size();
     long long steps = 0;

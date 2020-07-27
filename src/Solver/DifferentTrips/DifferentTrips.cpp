@@ -8,10 +8,21 @@
 #include <queue>
 #include <iostream>
 
+/**
+ *
+ * @param current  you current vertex
+ * @param e you destination
+ * @param distance the upTo distance
+ * @param soFar what is your steps soFar
+ * @return number of different routes
+ *
+ *  for each vertex you visit all of its edges with added weight to the total steps
+ *  and route considered to be a different route if and only if you visited the vertex with different steps so far
+ *  and mem array for memoization and for saving the visited state however using unordered_map for keeping the state was a better solution
+ */
 
 
-
-int DifferentTrips::dfs(char current, char e, int distance, int soFar = 0) {
+int DifferentTrips::dp(char current, char e, int distance, int soFar = 0) {
     if (soFar >= distance) {
         return 0;
     }
@@ -27,14 +38,14 @@ int DifferentTrips::dfs(char current, char e, int distance, int soFar = 0) {
     int count = (current == e && soFar < distance && soFar ? 1 : 0);
 
     for (auto edge : *edges) {
-        count += dfs(edge->getTo()->getId(), e, distance,edge->getWeight() + soFar);
+        count += dp(edge->getTo()->getId(), e, distance,edge->getWeight() + soFar);
     }
 
     return ret = count;
 }
 
 void DifferentTrips::solve() {
-    cout << "Output #10: "<< dfs('C' ,'C'  , 30,0) << endl ;
+    cout << "Output #10: "<< dp('C' ,'C'  , 30,0) << endl ;
 }
 
 DifferentTrips::DifferentTrips() {

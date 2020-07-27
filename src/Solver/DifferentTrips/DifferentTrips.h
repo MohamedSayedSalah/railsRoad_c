@@ -13,7 +13,7 @@ class DifferentTrips : public Solver {
     int mem[26][10000];
 public:
       DifferentTrips();
-      int dfs (char s , char e, int distance , int sofar ) ;
+      int dp (char s , char e, int distance , int sofar ) ;
       void solve() ;
 };
 
