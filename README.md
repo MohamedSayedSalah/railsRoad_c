@@ -1,5 +1,7 @@
 # railsRoad_c
 
+## INSTRUCTIONS
+
 this instruction only work for (mac/linux) users . for widnows you have to use Mingw 
 
 - you need to have homebrew 
@@ -17,3 +19,7 @@ this instruction only work for (mac/linux) users . for widnows you have to use M
 - after that you will have 2 executables in the build folder one for tests and one for the main program 
 - to run the main program type `./main/railsRoad_run`
 - to run tests type `./tests/railsRoad_tests`
+
+## SOLUTIONS
+
+the solutoin to this problem is done using both ` adjacency Matrix ` and `adjacency List` 
