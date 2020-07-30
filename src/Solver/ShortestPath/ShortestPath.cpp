@@ -92,7 +92,7 @@ int ShortestPath::dijkstraWithPriorityQueue(char s, char d) {
     while (!q.empty()) {
         Edge *e = q.top();
         q.pop();
-        if (e->getWeight() > dis[e->getTo()->getId() - 'A']) continue;// some other states reached better already
+
 
         for (auto edge : *e->getTo()->getEdges()) {
            Edge *tempEdge  = new Edge(edge->getFrom() , edge->getTo() , edge->getWeight()) ;

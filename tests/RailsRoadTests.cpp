@@ -49,14 +49,14 @@ namespace {
  * test up to 10 different cities route
  */
 TEST_F(TenCities , up_to_10_cities){
-  ASSERT_EQ( initializer.getRouteDistance().trip("ABCDEFGHIJK"),1000 ) ;
+  ASSERT_EQ( initializer.getRouteDistance().trip("ABCDEFGHIJK"),935 ) ;
 };
 /**
  * calculate the trip total distance for cyclic road
  */
 
 TEST_F(TenCities , cyclic_road){
-    ASSERT_EQ( initializer.getRouteDistance().trip("ABCABC"),500 ) ;
+    ASSERT_EQ( initializer.getRouteDistance().trip("ABCABC"),370 ) ;
 };
 
 /**
@@ -80,20 +80,20 @@ ASSERT_EQ(initializer.getNumberOfTrips().dfs('A', 'C', 3, false, '*') ,1) ;
  * calculate number of trips from source to destination with exact 3 stops
  */
 TEST_F(LengthyRoad , exact_ntrips){
-    ASSERT_EQ( initializer.getNumberOfTrips().dfs('A', 'D', 3, true, '*'),2 ) ;
+    ASSERT_EQ( initializer.getNumberOfTrips().dfs('A', 'E', 6, true, '*'),2 ) ;
 };
 
 /**
  * calculate shortest path from A to E
  */
 TEST_F(TenCities , shortest_trip_from_A_E){
-    ASSERT_EQ( initializer.getShortestPath().dijkstraWithPriorityQueue('A', 'E'),145 ) ;
+    ASSERT_EQ( initializer.getShortestPath().dijkstraWithPriorityQueue('A', 'I'),414 ) ;
 };
 /**
  * calculate shortest path from A to C
  */
 TEST_F(TenCities , shortest_trip_from_A_C){
-    ASSERT_EQ( initializer.getShortestPath().dijkstra('A', 'C'),155 ) ;
+    ASSERT_EQ( initializer.getShortestPath().dijkstra('A', 'C'),24 ) ;
 };
 
 
@@ -102,7 +102,7 @@ TEST_F(TenCities , shortest_trip_from_A_C){
  */
 
 TEST_F(TenCities , trip_combinations_from_A_C){
-    ASSERT_EQ( initializer.getDifferentTrips().dp('A', 'C',500,0),7 ) ;
+    ASSERT_EQ( initializer.getDifferentTrips().dp('A', 'C',500,0),1687 ) ;
 };
 
 /**
@@ -110,7 +110,7 @@ TEST_F(TenCities , trip_combinations_from_A_C){
  */
 
 TEST_F(TenCities , trip_combinations_from_A_E){
-    ASSERT_EQ( initializer.getDifferentTrips().dp('A', 'E',500,0),5 ) ;
+    ASSERT_EQ( initializer.getDifferentTrips().dp('A', 'D',300,0),55 ) ;
 };
 
 
